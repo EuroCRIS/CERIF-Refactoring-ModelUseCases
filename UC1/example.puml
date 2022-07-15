@@ -1,7 +1,8 @@
 @startuml
 
 
-    !startsub person
+    !startsub persons
+
         object "<u>Josiah:Person</u>" as Josiah #ffffff {
                personName = {
                \t firstNames = "Josiah"@en ^^ Multilingual_String
@@ -22,9 +23,11 @@
                \t\t\t}
                \t\t] ^^ List<ID>
             }
+
     !endsub
 
-    !startsub ins
+    !startsub institutions
+
         object "<u>Wesleyan University:Organisation_Unit</u>" as WesleyeanUniversity #ffffff {
                 name = "Wesleyan University"@en ^^ Multilingual_String
                 rorId = "https://ror.org/05h7xva58" ^^ ROR_ID
@@ -35,6 +38,7 @@
                 \tcountry = "USA"@en ^^ Multilingual_String
                 } ^^ Postal_Address
             }
+
         object "<u>Brown University:Organisation_Unit</u>" as BrownUniversity #ffffff {
                 name = "Brown University"@en ^^ Multilingual_String
                 rorId = "https://ror.org/05gq02987" ^^ ROR_ID_Type
@@ -45,9 +49,11 @@
                 \tcountry = "USA"@en ^^ Multilingual_String
                 } ^^ Postal_Address
             }
+
     !endsub
 
     !startsub employments
+
         object "<u>Josiah Wesleyan University:Employment</u>" as JosiahWesleyeanUniversity #ffffff {
                 dateRange = {
                 \t startDate = "1930-02-29" ^^ Date
@@ -67,15 +73,78 @@
                 \t title = "Professor"@en ^^ Date
                 } ^^ Position_Title
             }
-    !endsub
 
-    !startsub employments
         JosiahWesleyeanUniversity o--> Josiah : actor >
+
         JosiahBrownUniversity o--> Josiah : actor >
+
         JosiahWesleyeanUniversity o--> WesleyeanUniversity : involved in >
+
         JosiahBrownUniversity o--> BrownUniversity : involved in >
+
     !endsub
 
+    !startsub articles
 
+        object "<u>Restricted Access: Restricted Access COAR v.1.0 Accessibility Specification</u>" as RestrictedAccess #00ff00
+
+        object "<u>IEEE_TPS : Journal</u>" as IEEE_TPS #00ff00 {
+            title = "IEEE Transactions on Plasma Science"@en
+            issn = "1939-9375" ^^ ISSN
+        }
+
+        object "<u>10.1109/TPS.1987.4316723 : Journal Article</u>" as Article101109 #00ff00 {
+                DOI = "10.1109/TPS.1987.4316723" ^^ DOI_Type
+                title = "Bulk and surface plasmons in
+                \t artificially structured materials"@en
+                publicationDate = 1987 ^^ Date
+                startPage = "394"
+                endPage = "410"
+                volume = "15"
+                number = "4"
+        }
+
+        Article101109 o--> IEEE_TPS : source >
+
+        Article101109 o--> RestrictedAccess : accessRights >
+
+        Article101109 o--> "0..* authors" Josiah
+
+    !endsub
+
+    !startsub authorships
+
+         object "<u>Josiah Article101109:Authorship</u>" as JosiahArticle101109 #ffffff {
+                 correspondingAuthor = "false" ^^ Boolean
+         }
+
+         object "<u>Affiliation Josiah Article101109 : Affiliation_Statement</u>" as AffiliationJosiahArticle101109 #ffffff {
+                 displayAffiliation = "Brown University of Providence, Providence, RI, USA" ^^ String
+                 displayPersonName = "Josiah S. Carberry" ^^ String
+         }
+
+         JosiahArticle101109 o--> AffiliationJosiahArticle101109 : affiliation >
+
+         JosiahBrownUniversity o--> AffiliationJosiahArticle101109 : is the foundation for >
+
+         JosiahArticle101109 o--> Josiah : actor >
+
+         JosiahArticle101109 o--> Article101109 : document >
+
+         object "<u>John Article101109:Authorship</u>" as JohnArticle101109 #ffffff {
+                  correspondingAuthor = "true" ^^ Boolean
+         }
+
+         object "<u>Affiliation John Article101109 : Affiliation_Statement</u>" as AffiliationJohnArticle101109 #ffffff {
+                  displayAffiliation = "Brown University of Providence, Providence, RI, USA" ^^ String
+                  displayPersonName = "John J. Quinn" ^^ String
+         }
+
+         JohnArticle101109 o--> AffiliationJohnArticle101109 : affiliation >
+
+         JohnArticle101109 o--> Article101109 : document >
+
+
+    !endsub
 
 @enduml
