@@ -108,8 +108,6 @@
 
         Article101109 o--> RestrictedAccess : accessRights >
 
-        Article101109 o--> "0..* authors" Josiah
-
     !endsub
 
     !startsub authorships
