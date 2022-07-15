@@ -89,7 +89,7 @@
         object "<u>Restricted Access: Restricted Access COAR v.1.0 Accessibility Specification</u>" as RestrictedAccess #00ff00
 
         object "<u>IEEE_TPS : Journal</u>" as IEEE_TPS #00ff00 {
-            title = "IEEE Transactions on Plasma Science"@en
+            title = "IEEE Transactions on Plasma Science"@en ^^ Multilingual_String
             issn = "1939-9375" ^^ ISSN
         }
 
