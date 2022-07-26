@@ -257,4 +257,34 @@
 
     !endsub
 
+    !startsub reviewingActivity
+
+        object "<u>JosiahContributionToJournal:ContributionToJournal</u>" as JosiahContributionToJournal #ffffff {
+                 dataRange = {
+                   \t startDate = "2004-02-02" ^^ Date
+                   \t startDateInclusive = "true" ^^ Boolean
+                   \t endDate = "2004-12-31" ^^ Date
+                   \t endDateInclusive = "true" ^^ Boolean
+                 } ^^ Date_Range
+        }
+
+        object "<u>JoP : Journal</u>" as JoP #00ff00 {
+            title = "The  of Psychoceramics"@en ^^ Multilingual_String
+            issn = "1234-5678" ^^ ISSN
+        }
+
+        JosiahContributionToJournal o--> AffiliationJosiah : affiliation statement >
+
+        JosiahContributionToJournal o--> Josiah : of >
+
+        JosiahContributionToJournal o--> JoP : to >
+
+        object "<u>JosiahContributionStatementToJournal:ContributionStatement</u>" as JosiahContributionStatementToJournal #ffffff {
+                 statement = "Performed review of one article for this journal"@en ^^ Multilingual_String
+        }
+
+        JosiahContributionToJournal o--> JosiahContributionStatementToJournal : contribution statement >
+
+    !endsub
+
 @enduml
