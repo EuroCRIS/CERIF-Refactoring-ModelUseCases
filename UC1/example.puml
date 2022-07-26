@@ -96,7 +96,7 @@
         object "<u>10.1109/TPS.1987.4316723 : Journal Article</u>" as Article101109 #00ff00 {
                 DOI = "10.1109/TPS.1987.4316723" ^^ DOI_Type
                 title = "Bulk and surface plasmons in
-                \t artificially structured materials"@en
+                \t artificially structured materials"@en ^^ Multilingual_String
                 publicationDate = 1987 ^^ Date
                 startPage = "394"
                 endPage = "410"
@@ -116,14 +116,14 @@
                  correspondingAuthor = "false" ^^ Boolean
          }
 
-         object "<u>Affiliation Josiah Article101109 : Affiliation_Statement</u>" as AffiliationJosiahArticle101109 #ffffff {
+         object "<u>Affiliation Josiah : Affiliation_Statement</u>" as AffiliationJosiah #ffffff {
                  displayAffiliation = "Brown University of Providence, Providence, RI, USA" ^^ String
                  displayPersonName = "Josiah S. Carberry" ^^ String
          }
 
-         JosiahArticle101109 o--> AffiliationJosiahArticle101109 : affiliation >
+         JosiahArticle101109 o--> AffiliationJosiah : affiliation >
 
-         JosiahBrownUniversity o--> AffiliationJosiahArticle101109 : is the foundation for >
+         JosiahBrownUniversity o--> AffiliationJosiah : is the foundation for >
 
          JosiahArticle101109 o--> Josiah : actor >
 
@@ -142,6 +142,118 @@
 
          JohnArticle101109 o--> Article101109 : document >
 
+
+    !endsub
+
+    !startsub project
+
+        object "<u>INSP:Project</u>" as INSP #ffffff {
+                 name = "Investigation of novel surface plasmons"@en ^^ Multilingual_String
+                 acronym = "INSP" ^^ String
+                 dataRange = {
+                  \t startDate = "1985-02-29" ^^ Date
+                  \t startDateInclusive = "true" ^^ Boolean
+                  \t endDate = "1989-02-29" ^^ Date
+                  \t endDateInclusive = "true" ^^ Boolean
+                  } ^^ Date_Range
+        }
+
+        object "<u>INSP_WP1:Project</u>" as INSP_WP1 #ffffff {
+                 name = "Artificially structured materials"@en ^^ Multilingual_String
+                 acronym = "WP1" ^^ String
+        }
+
+        object "<u>INSP_WP1_T1:Project</u>" as INSP_WP1_T1 #ffffff {
+                 name = "Bulk and surface collective charge density"@en ^^ Multilingual_String
+                 acronym = "WP1_T1" ^^ String
+        }
+
+        INSP_WP1_T1 o--> INSP_WP1 : part of >
+
+        INSP_WP1 o--> INSP : part of >
+
+        object "<u>NIH_1049:Funding</u>" as NIH_1049 #ffffff {
+                 grantID = 1049 ^^ Grant_ID
+                 budget = {
+                 \t amount = 1000000 ^^ Decimal
+                 \t currencyCode = "USD" ^^ ISO_4217_Alpha_Code
+                 } ^^ Monetary_Ammount
+        }
+
+        INSP o--> NIH_1049 : funding source >
+
+    !endsub
+
+    !startsub contributionStatementToArticle
+
+        object "<u>JosiahContributionStatement:CRediTContributionStatement</u>" as JosiahContributionStatement #00ff00 {
+                 roleType = Writing - original draft ^^ CRediT_Role_Type
+                 degreeOfContribution = Lead ^^ CRediT_Degree_of_Contribution
+        }
+
+        object "<u>JosiahResourceUsageStatement:ResourceUsageStatement</u>" as JosiahResourceUsageStatement #ffffff {
+                 statement = "This work was supported by the NIH [grant number 1049]."@en ^^ Multilingual_String
+        }
+
+        JosiahContributionStatement o--> JosiahResourceUsageStatement : resource usage statement >
+
+        JosiahResourceUsageStatement o--> NIH_1049 : funding >
+
+        JosiahArticle101109 o--> JosiahContributionStatement : contribution statement >
+
+    !endsub
+
+    !startsub contributionToProject
+
+        object "<u>JosiahContributionToProject:ContributionToProject</u>" as JosiahContributionToProject #ffffff {
+                 dataRange = {
+                   \t startDate = "1985-02-29" ^^ Date
+                   \t startDateInclusive = "true" ^^ Boolean
+                   \t endDate = "1989-02-29" ^^ Date
+                   \t endDateInclusive = "true" ^^ Boolean
+                 } ^^ Date_Range
+        }
+
+        JosiahContributionToProject o--> AffiliationJosiah : affiliation statement >
+
+        JosiahContributionToProject o--> Josiah : of >
+
+        JosiahContributionToProject o--> INSP : to >
+
+        object "<u>JosiahContributionToWP:ContributionToProject</u>" as JosiahContributionToWP #ffffff {
+                 dataRange = {
+                   \t startDate = "1986-02-29" ^^ Date
+                   \t startDateInclusive = "true" ^^ Boolean
+                   \t endDate = "1988-02-29" ^^ Date
+                   \t endDateInclusive = "true" ^^ Boolean
+                 } ^^ Date_Range
+        }
+
+        JosiahContributionToWP o--> AffiliationJosiah : affiliation statement >
+
+        JosiahContributionToWP o--> Josiah : of >
+
+        JosiahContributionToWP o--> INSP_WP1 : to >
+
+    !endsub
+
+    !startsub contributionStatementToProject
+
+        object "<u>JosiahContributionStatementToProject:ContributionStatement</u>" as JosiahContributionStatementToProject #ffffff {
+                 statement = "Participate in the project as a researcher"@en ^^ Multilingual_String
+        }
+
+        object "<u>JosiahContributionStatementToWP1:ContributionStatement</u>" as JosiahContributionStatementToWP1 #ffffff {
+                 statement = "Lead the WP1"@en ^^ Multilingual_String
+        }
+
+        JosiahContributionStatementToProject o--> JosiahResourceUsageStatement : resource usage statement >
+
+        JosiahContributionStatementToWP1 o--> JosiahResourceUsageStatement : resource usage statement >
+
+        JosiahContributionToProject o--> JosiahContributionStatementToProject : contribution statement >
+
+        JosiahContributionToWP o--> JosiahContributionStatementToWP1 : contribution statement >
 
     !endsub
 

@@ -7,3 +7,5 @@ It is expected that his profile and vitae may be transferred electronically to t
 
 ## Example Data
 Josiah Carberry (https://orcid.org/0000-0002-1825-0097) is a well-known fictitious person whose carreer and achievements will be used in this use-case.
+
+Data available at a fictitious ORCID profile have been additionally extended with a fictitious scientific project. 
