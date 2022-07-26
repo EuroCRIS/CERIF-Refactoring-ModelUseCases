@@ -163,13 +163,6 @@
                  acronym = "WP1" ^^ String
         }
 
-        object "<u>INSP_WP1_T1:Project</u>" as INSP_WP1_T1 #ffffff {
-                 name = "Bulk and surface collective charge density"@en ^^ Multilingual_String
-                 acronym = "WP1_T1" ^^ String
-        }
-
-        INSP_WP1_T1 o--> INSP_WP1 : part of >
-
         INSP_WP1 o--> INSP : part of >
 
         object "<u>NIH_1049:Funding</u>" as NIH_1049 #ffffff {
