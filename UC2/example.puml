@@ -321,6 +321,8 @@
 
         JosiahResourceUsageStatementTask o--> NIH_1049_WP1_Task1 : funding >
 
+        JosiahContributionStatementToWP1Task1 o--> ExperimentingInChemistryPossession : provides >
+
         object "<u>JosiahResourceUsageStatementTaskArticle:ResourceUsageStatement</u>" as JosiahResourceUsageStatementTaskArticle #ffffff {
                  statement = "APC and open-access to article paid from the NIH [grant number 1049]. Total cost 1,000 USD."@en ^^ Multilingual_String
         }
@@ -329,17 +331,7 @@
 
         JosiahResourceUsageStatementTaskArticle o--> NIH_1049_dissemination : funding >
 
-        object "<u>JosiahResourceUsageStatementTask:ResourceUsageStatement</u>" as JosiahResourceUsageStatementTask #ffffff {
-                 statement = "Researcher time paid from the NIH [grant number 1049]. Total salary used for researcher for this Task is 5,000 USD."@en ^^ Multilingual_String
-        }
-
-        JosiahContributionStatementToWP1Task1 o--> JosiahResourceUsageStatementTask : resource usage statement >
-
-        JosiahResourceUsageStatementTask o--> NIH_1049_WP1_Task1 : funding >
-
         JosiahContributionStatementToWP1Task1Article o--> Article101109 : provides >
-
-        JosiahContributionStatementToWP1Task1 o--> ExperimentingInChemistryPossession : provides >
 
         JosiahContributionToProject o--> JosiahContributionStatementToProject : contribution statement >
 
