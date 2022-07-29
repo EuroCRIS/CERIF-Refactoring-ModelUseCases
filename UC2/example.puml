@@ -286,9 +286,9 @@
                  } ^^ Date_Range
         }
 
-        JosiahContributionToWPTask o--> BrownUniversity : of >
+        BrownUniversityContributionToWPTask o--> BrownUniversity : of >
 
-        JosiahContributionToWPTask o--> INSP_WP1_T1 : to >
+        BrownUniversityContributionToWPTask o--> INSP_WP1_T1 : to >
 
 
     !endsub
@@ -368,7 +368,7 @@
 
         JosiahContributionToWPTask o--> JosiahContributionStatementToWP1Task1 : contribution statement >
 
-        JosiahContributionToWPTask o--> JosiahContributionStatementToWP1Task1Article : contribution statement >
+        BrownUniversityContributionToWPTask o--> BrownUniversityContributionStatementToWP1Task1Article : contribution statement >
 
     !endsub
 
