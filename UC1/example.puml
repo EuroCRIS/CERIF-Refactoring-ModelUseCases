@@ -150,7 +150,7 @@
         object "<u>INSP:Project</u>" as INSP #ffffff {
                  name = "Investigation of novel surface plasmons"@en ^^ Multilingual_String
                  acronym = "INSP" ^^ String
-                 dataRange = {
+                 dateRange = {
                   \t startDate = "1985-02-29" ^^ Date
                   \t startDateInclusive = "true" ^^ Boolean
                   \t endDate = "1989-02-29" ^^ Date
@@ -199,7 +199,7 @@
     !startsub contributionToProject
 
         object "<u>JosiahContributionToProject:ContributionToProject</u>" as JosiahContributionToProject #ffffff {
-                 dataRange = {
+                 dateRange = {
                    \t startDate = "1985-02-29" ^^ Date
                    \t startDateInclusive = "true" ^^ Boolean
                    \t endDate = "1989-02-29" ^^ Date
@@ -214,7 +214,7 @@
         JosiahContributionToProject o--> INSP : to >
 
         object "<u>JosiahContributionToWP:ContributionToProject</u>" as JosiahContributionToWP #ffffff {
-                 dataRange = {
+                 dateRange = {
                    \t startDate = "1986-02-29" ^^ Date
                    \t startDateInclusive = "true" ^^ Boolean
                    \t endDate = "1988-02-29" ^^ Date
@@ -253,7 +253,7 @@
     !startsub reviewingActivity
 
         object "<u>JosiahContributionToJournal:ContributionToJournal</u>" as JosiahContributionToJournal #ffffff {
-                 dataRange = {
+                 dateRange = {
                    \t startDate = "2004-02-02" ^^ Date
                    \t startDateInclusive = "true" ^^ Boolean
                    \t endDate = "2004-12-31" ^^ Date

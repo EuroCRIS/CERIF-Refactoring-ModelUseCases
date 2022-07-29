@@ -37,7 +37,7 @@
 
         }
 
-        ExperimentingInChemistryPossession o--> Josiah : actor >
+        ExperimentingInChemistryPossession o--> Josiah : owner >
 
         ExperimentingInChemistryPossession o--> ExperimentingInChemistry : skill or expertise >
 
@@ -142,7 +142,7 @@
         object "<u>INSP:Project</u>" as INSP #ffffff {
                  name = "Investigation of novel surface plasmons"@en ^^ Multilingual_String
                  acronym = "INSP" ^^ String
-                 dataRange = {
+                 dateRange = {
                   \t startDate = "1985-02-29" ^^ Date
                   \t startDateInclusive = "true" ^^ Boolean
                   \t endDate = "1989-02-29" ^^ Date
@@ -231,7 +231,7 @@
     !startsub contributionToProject
 
         object "<u>JosiahContributionToProject:ContributionToProject</u>" as JosiahContributionToProject #ffffff {
-                 dataRange = {
+                 dateRange = {
                    \t startDate = "1985-02-29" ^^ Date
                    \t startDateInclusive = "true" ^^ Boolean
                    \t endDate = "1989-02-29" ^^ Date
@@ -246,7 +246,7 @@
         JosiahContributionToProject o--> INSP : to >
 
         object "<u>JosiahContributionToWP:ContributionToProject</u>" as JosiahContributionToWP #ffffff {
-                 dataRange = {
+                 dateRange = {
                    \t startDate = "1986-02-29" ^^ Date
                    \t startDateInclusive = "true" ^^ Boolean
                    \t endDate = "1988-02-29" ^^ Date
@@ -261,7 +261,7 @@
         JosiahContributionToWP o--> INSP_WP1 : to >
 
         object "<u>JosiahContributionToWPTask:ContributionToProject</u>" as JosiahContributionToWPTask #ffffff {
-                 dataRange = {
+                 dateRange = {
                    \t startDate = "1987-02-29" ^^ Date
                    \t startDateInclusive = "true" ^^ Boolean
                    \t endDate = "1988-02-29" ^^ Date
@@ -275,6 +275,22 @@
 
         JosiahContributionToWPTask o--> INSP_WP1_T1 : to >
 
+        JosiahContributionToWPTask o--> Article101109 : evindeced by >
+
+        object "<u>BrownUniversityContributionToWPTask:ContributionToProject</u>" as BrownUniversityContributionToWPTask #ffffff {
+                 dateRange = {
+                   \t startDate = "1987-02-29" ^^ Date
+                   \t startDateInclusive = "true" ^^ Boolean
+                   \t endDate = "1988-02-29" ^^ Date
+                   \t endDateInclusive = "true" ^^ Boolean
+                 } ^^ Date_Range
+        }
+
+        JosiahContributionToWPTask o--> BrownUniversity : of >
+
+        JosiahContributionToWPTask o--> INSP_WP1_T1 : to >
+
+
     !endsub
 
     !startsub contributionStatementToProject
@@ -287,18 +303,23 @@
                  statement = "Lead the WP1"@en ^^ Multilingual_String
         }
 
-        object "<u>JosiahContributionStatementToWP1Task1:ContributionStatement</u>" as JosiahContributionStatementToWP1Task1 #ffffff {
-                 statement = "Participate in the Task 1 of the WP1 by using his
-                 \t time and expertise"@en ^^ Multilingual_String
+        object "<u>JosiahContributionStatementToWP1Task1:TimeContributionStatement</u>" as JosiahContributionStatementToWP1Task1 #ffffff {
+                 statement = "Participate in the Task 1 of the WP1 by providing his
+                 \t expertise"@en ^^ Multilingual_String
+                 time = "65 hours" ^^ Time_Ammount
         }
 
-        object "<u>JosiahContributionStatementToWP1Task1Article:ContributionStatement</u>" as JosiahContributionStatementToWP1Task1Article #ffffff {
-                 statement = "Writting a paper about  artificially structured
-                 \t materials"@en ^^ Multilingual_String
+        object "<u>BrownUniversityContributionStatementToWP1Task1Article:ContributionStatement</u>" as BrownUniversityContributionStatementToWP1Task1Article #ffffff {
+                 statement = "Paying APC and open-access for
+                 \t journal article"@en ^^ Multilingual_String
         }
 
-        object "<u>JosiahResourceUsageStatementProject:ResourceUsageStatement</u>" as JosiahResourceUsageStatementProject #ffffff {
-                 statement = "Researcher time paid from the NIH [grant number 1049]. Total salary used for researcher 25,000 USD."@en ^^ Multilingual_String
+        object "<u>JosiahResourceUsageStatementProject:FundingUsageStatement</u>" as JosiahResourceUsageStatementProject #ffffff {
+                 statement = "Researcher time paid from the NIH [grant number 1049]."@en ^^ Multilingual_String
+                 cost = {
+                 \t amount = 25000 ^^ Decimal
+                 \t currencyCode = "USD" ^^ ISO_4217_Alpha_Code
+                 } ^^ Monetary_Ammount
         }
 
         JosiahContributionStatementToProject o--> JosiahResourceUsageStatementProject : resource usage statement >
@@ -313,8 +334,12 @@
 
         JosiahResourceUsageStatementWP o--> NIH_1049_WP1 : funding >
 
-        object "<u>JosiahResourceUsageStatementTask:ResourceUsageStatement</u>" as JosiahResourceUsageStatementTask #ffffff {
-                 statement = "Researcher time paid from the NIH [grant number 1049]. Total salary used for researcher for this Task is 5,000 USD."@en ^^ Multilingual_String
+        object "<u>JosiahResourceUsageStatementTask:FundingUsageStatement</u>" as JosiahResourceUsageStatementTask #ffffff {
+                 statement = "Researcher time paid from the NIH [grant number 1049]. "@en ^^ Multilingual_String
+                 cost = {
+                 \t amount = 5000 ^^ Decimal
+                 \t currencyCode = "USD" ^^ ISO_4217_Alpha_Code
+                 } ^^ Monetary_Ammount
         }
 
         JosiahContributionStatementToWP1Task1 o--> JosiahResourceUsageStatementTask : resource usage statement >
@@ -323,15 +348,19 @@
 
         JosiahContributionStatementToWP1Task1 o--> ExperimentingInChemistryPossession : provides >
 
-        object "<u>JosiahResourceUsageStatementTaskArticle:ResourceUsageStatement</u>" as JosiahResourceUsageStatementTaskArticle #ffffff {
-                 statement = "APC and open-access to article paid from the NIH [grant number 1049]. Total cost 1,000 USD."@en ^^ Multilingual_String
+        object "<u>BrownUniversityResourceUsageStatementTaskArticle:FundingUsageStatement</u>" as BrownUniversityResourceUsageStatementTaskArticle #ffffff {
+                 statement = "Paying of APC and open-access to article reimbursed from the NIH [grant number 1049]. "@en ^^ Multilingual_String
+                 cost = {
+                 \t amount = 1000 ^^ Decimal
+                 \t currencyCode = "USD" ^^ ISO_4217_Alpha_Code
+                 } ^^ Monetary_Ammount
         }
 
-        JosiahContributionStatementToWP1Task1Article o--> JosiahResourceUsageStatementTaskArticle : resource usage statement >
+        BrownUniversityContributionStatementToWP1Task1Article o--> BrownUniversityResourceUsageStatementTaskArticle : resource usage statement >
 
-        JosiahResourceUsageStatementTaskArticle o--> NIH_1049_dissemination : funding >
+        BrownUniversityResourceUsageStatementTaskArticle o--> NIH_1049_dissemination : funding >
 
-        JosiahContributionStatementToWP1Task1Article o--> Article101109 : provides >
+        BrownUniversityContributionStatementToWP1Task1Article o--> Article101109 : provides >
 
         JosiahContributionToProject o--> JosiahContributionStatementToProject : contribution statement >
 

@@ -1,0 +1,94 @@
+@startuml
+
+    !startsub resource
+
+        object "<u>Supercomputer:Infrastructure</u>" as Supercomputer #ffffff {
+                 description = "Supercomputer which can be used for high
+                 \t performance computing. Characteristics are the
+                 \t following: ... "@en ^^ Multilingual_String
+        }
+
+    !endsub
+
+    !startsub institutions
+
+        object "<u>Brown University:Organisation_Unit</u>" as BrownUniversity #ffffff {
+                name = "Brown University"@en ^^ Multilingual_String
+                rorId = "https://ror.org/05gq02987" ^^ ROR_ID_Type
+                websiteURL = "https://www.brown.edu/" ^^ URI
+                address = {
+                \tcity = "Providence"@en ^^ Multilingual_String
+                \tstateOrProvince = "Rhode Island"@en ^^ Multilingual_String
+                \tcountry = "USA"@en ^^ Multilingual_String
+                } ^^ Postal_Address
+        }
+
+        object "<u>Supercomputer Possession:InfrastructurePossession</u>" as SupercomputerPossession #ffffff {
+                dateRange = {
+                \t startDate = "2011-02-29" ^^ Date
+                \t startDateInclusive = "true" ^^ Boolean
+                \t endDate = "2021-02-29" ^^ Date
+                \t endDateInclusive = "true" ^^ Boolean
+                } ^^ Date_Range
+        }
+
+        SupercomputerPossession o--> BrownUniversity : owner >
+
+        SupercomputerPossession o--> Supercomputer : infrastructure >
+
+    !endsub
+
+    !startsub resourceOffer
+
+        object "<u>Supercomputer Offer:ResourceOffer</u>" as SupercomputerOffer #ffffff {
+                dateRange = {
+                \t startDate = "2011-02-29" ^^ Date
+                \t startDateInclusive = "true" ^^ Boolean
+                \t endDate = "2021-02-29" ^^ Date
+                \t endDateInclusive = "true" ^^ Boolean
+                } ^^ Date_Range
+        }
+
+        SupercomputerOffer o--> BrownUniversity : owner >
+
+        SupercomputerOffer o--> Supercomputer : infrastructure >
+
+        object "<u>Supercomputer Renting Financial Condition:FinancialCondition</u>" as SupercomputerRentingFinancialCondition #ffffff {
+                description = "The price is not for negotiation"@en ^^ Multilingual_String
+                cost = {
+                \t amount = 10000 ^^ Decimal
+                \t currencyCode = "USD" ^^ ISO_4217_Alpha_Code
+                } ^^ Monetary_Ammount
+                time = "1 month" ^^ Time_Ammount
+        }
+
+        SupercomputerOffer o--> SupercomputerRentingFinancialCondition : financial condition >
+
+        object "<u>Supercomputer Renting Skill Needed:ExpertiseAndSkillsCondition</u>" as SupercomputerRentingSkillNeeded #ffffff {
+                level = "High level of the skill is needed proved by certificate."@en ^^ Multilingual_String
+        }
+
+        SupercomputerOffer o--> SupercomputerRentingSkillNeeded : expertise/skills condition >
+
+        object "<u>Microsoft Certified Solutions Expert:ExpertiseAndSkills</u>" as MicrosoftCertifiedSolutionsExpert #ffffff {
+                description = "Skills needed to move your company to the cloud,
+                \t increase user productivity and ..."@en ^^ Multilingual_String
+        }
+
+        SupercomputerRentingSkillNeeded o--> MicrosoftCertifiedSolutionsExpert : expertise >
+
+        object "<u>Supercomputer Renting Description:TextualDocument</u>" as SupercomputerRentingDescription #ffffff {
+        }
+
+        SupercomputerOffer o--> SupercomputerRentingDescription : described in >
+
+    !endsub
+
+    !startsub resourceRequest
+
+
+
+    !endsub
+
+
+@enduml
