@@ -51,18 +51,7 @@
 
         SupercomputerOffer o--> BrownUniversity : owner >
 
-        SupercomputerOffer o--> Supercomputer : infrastructure >
-
-        object "<u>Supercomputer Renting Financial Condition:FinancialCondition</u>" as SupercomputerRentingFinancialCondition #ffffff {
-                description = "The price is not for negotiation"@en ^^ Multilingual_String
-                cost = {
-                \t amount = 10000 ^^ Decimal
-                \t currencyCode = "USD" ^^ ISO_4217_Alpha_Code
-                } ^^ Monetary_Ammount
-                time = "1 month" ^^ Time_Ammount
-        }
-
-        SupercomputerOffer o--> SupercomputerRentingFinancialCondition : financial condition >
+        SupercomputerOffer o--> Supercomputer : resource >
 
         object "<u>Supercomputer Renting Skill Needed:ExpertiseAndSkillsCondition</u>" as SupercomputerRentingSkillNeeded #ffffff {
                 level = "High level of the skill is needed proved by certificate."@en ^^ Multilingual_String
