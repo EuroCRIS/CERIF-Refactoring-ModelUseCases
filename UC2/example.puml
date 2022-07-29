@@ -361,10 +361,6 @@
 
         object "<u>JosiahResourceUsageStatementTask:FundingUsageStatement</u>" as JosiahResourceUsageStatementTask #ffffff {
              statement = "Researcher time paid from the NIH [grant number 1049]. "@en ^^ Multilingual_String
-             cost = {
-             \t amount = 5000 ^^ Decimal
-             \t currencyCode = "USD" ^^ ISO_4217_Alpha_Code
-             } ^^ Monetary_Ammount
         }
 
         JosiahContributionStatementToWP1Task1 o--> JosiahResourceUsageStatementTask : resource usage statement >
