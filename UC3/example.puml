@@ -42,6 +42,8 @@
 
         JosiahBrownUniversity o--> Josiah : actor >
 
+        JosiahBrownUniversity o--> BrownUniversity : involved in >
+
         object "<u>University of Novi Sad:Organisation_Unit</u>" as NoviSadUniversity #ffffff {
             name = "University of Novi Sad"@en ^^ Multilingual_String
             rorId = "https://ror.org/00xa57a59" ^^ ROR_ID_Type
@@ -70,6 +72,8 @@
         }
 
         MarkoNoviSadUniversity o--> Marko : actor >
+
+        MarkoNoviSadUniversity o--> NoviSadUniversity : involved in >
 
         object "<u>Affiliation Marko : Affiliation_Statement</u>" as AffiliationMarko #ffffff {
              displayAffiliation = "University of Novi Sad, Serbia" ^^ String
@@ -175,7 +179,7 @@
             } ^^ Date_Range
         }
 
-        object "<u>Microsoft Certificate : Document</u>" as MicrosoftCertificate #00ff00 {
+        object "<u>Microsoft Certificate : Document</u>" as MicrosoftCertificate #ffffff {
             title = "Microsoft Certificate for Marko
             \t Miljeković"@en ^^ Multilingual_String
             publicationDate = "2010-02-29" ^^ Date
