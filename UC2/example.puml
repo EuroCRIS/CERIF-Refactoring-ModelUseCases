@@ -41,6 +41,12 @@
 
         ExperimentingInChemistryPossession o--> ExperimentingInChemistry : skill or expertise >
 
+        object "<u>Experimenting in Chemistry Providing:ExpertiseAndSkillsPossession</u>" as ExperimentingInChemistryProviding #ffffff {
+            time = "65 hours" ^^ String
+        }
+
+        ExperimentingInChemistryProviding o--> ExperimentingInChemistry : skill or expertise >
+
     !endsub
 
     !startsub institutions
@@ -325,10 +331,22 @@
 
         JosiahContributionToWPTask o--> Article101109 : evindeced by >
 
+        object "<u>NIH Contribution to Project:ContributionToProject</u>" as NIHContributionToProject #ffffff {
+             dateRange = {
+               \t startDate = "1985-02-29" ^^ Date
+               \t startDateInclusive = "true" ^^ Boolean
+               \t endDate = "1989-02-29" ^^ Date
+               \t endDateInclusive = "true" ^^ Boolean
+             } ^^ Date_Range
+        }
+
+        NIHContributionToProject o--> NIH : of >
+
+        JosiahContributionToProject o--> INSP : to >
+
     !endsub
 
     !startsub contributionToDocument
-
 
         object "<u>Brown University Contribution to Article101109:ContributionToDocument</u>" as BrownUniversityContributionToArticle101109 #ffffff {
 
@@ -338,6 +356,13 @@
 
         BrownUniversityContributionToArticle101109 o--> Article101109 : to >
 
+        object "<u>NIH Contribution to Article101109:ContributionToDocument</u>" as NIHContributionToArticle101109 #ffffff {
+
+        }
+
+        NIHContributionToArticle101109 o--> NIH : of >
+
+        NIHContributionToArticle101109 o--> Article101109 : to >
 
     !endsub
 
@@ -351,13 +376,12 @@
              statement = "Lead the WP1"@en ^^ Multilingual_String
         }
 
-        object "<u>JosiahContributionStatementToWP1Task1:TimeContributionStatement</u>" as JosiahContributionStatementToWP1Task1 #ffffff {
+        object "<u>JosiahContributionStatementToWP1Task1:ContributionStatement</u>" as JosiahContributionStatementToWP1Task1 #ffffff {
              statement = "Participate in the Task 1 of the WP1 by providing his
              \t expertise"@en ^^ Multilingual_String
-             time = "65 hours" ^^ Time_Ammount
         }
 
-        object "<u>JosiahResourceUsageStatementProject:FundingUsageStatement</u>" as JosiahResourceUsageStatementProject #ffffff {
+        object "<u>JosiahResourceUsageStatementProject:ResourceUsageStatement</u>" as JosiahResourceUsageStatementProject #ffffff {
              statement = "Researcher time paid from the NIH [grant number 1049]."@en ^^ Multilingual_String
         }
 
@@ -373,7 +397,7 @@
 
         JosiahResourceUsageStatementWP o--> NIH_1049_WP1 : funding >
 
-        object "<u>JosiahResourceUsageStatementTask:FundingUsageStatement</u>" as JosiahResourceUsageStatementTask #ffffff {
+        object "<u>JosiahResourceUsageStatementTask:ResourceUsageStatement</u>" as JosiahResourceUsageStatementTask #ffffff {
              statement = "Researcher time paid from the NIH [grant number 1049]. "@en ^^ Multilingual_String
         }
 
@@ -381,13 +405,21 @@
 
         JosiahResourceUsageStatementTask o--> NIH_1049_WP1_Task1_Josiah : funding >
 
-        JosiahContributionStatementToWP1Task1 o--> ExperimentingInChemistryPossession : provides >
+        JosiahContributionStatementToWP1Task1 o--> ExperimentingInChemistryProviding : provides >
 
         JosiahContributionToProject o--> JosiahContributionStatementToProject : contribution statement >
 
         JosiahContributionToWP o--> JosiahContributionStatementToWP1 : contribution statement >
 
         JosiahContributionToWPTask o--> JosiahContributionStatementToWP1Task1 : contribution statement >
+
+        object "<u>NIHContributionStatementToProject:ContributionStatement</u>" as NIHContributionStatementToProject #ffffff {
+             statement = "NIH provides funding to the project"@en ^^ Multilingual_String
+        }
+
+        NIHContributionToProject o--> NIHContributionStatementToProject : contribution statement >
+
+        NIHContributionStatementToProject o--> NIH_1049 : provides >
 
     !endsub
 
@@ -398,7 +430,7 @@
              \t journal article"@en ^^ Multilingual_String
         }
 
-        object "<u>BrownUniversityResourceUsageStatementTaskArticle:FundingUsageStatement</u>" as BrownUniversityResourceUsageStatementTaskArticle #ffffff {
+        object "<u>BrownUniversityResourceUsageStatementTaskArticle:ResourceUsageStatement</u>" as BrownUniversityResourceUsageStatementTaskArticle #ffffff {
              statement = "Paying of part of APC and open-access to article covered by the NIH [grant number 1049]. "@en ^^ Multilingual_String
         }
 
@@ -409,6 +441,14 @@
         BrownUniversityContributionStatementToArticle o--> Brown_University_dissemination_Article101109 : provides >
 
         BrownUniversityContributionToArticle101109 o--> BrownUniversityContributionStatementToArticle : contribution statement >
+
+        object "<u>NIHContributionStatementToDocument:ContributionStatement</u>" as NIHContributionStatementToDocument #ffffff {
+             statement = "NIH provides funding to publishing the paper in the open-access mode"@en ^^ Multilingual_String
+        }
+
+        NIHContributionToArticle101109 o--> NIHContributionStatementToDocument : contribution statement >
+
+        NIHContributionStatementToDocument o--> NIH_1049_dissemination_Article101109 : provides >
 
     !endsub
 

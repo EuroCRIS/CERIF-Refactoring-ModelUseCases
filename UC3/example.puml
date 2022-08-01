@@ -23,27 +23,6 @@
             } ^^ Postal_Address
         }
 
-        object "<u>Josiah:Person</u>" as Josiah #ffffff {
-           personName = {
-           \t firstNames = "Josiah"@en ^^ Multilingual_String
-           \t familyNames = "Carberry"@en ^^ Multilingual_String
-           } ^^ PersonName
-        }
-
-        object "<u>Josiah Brown University:Employment</u>" as JosiahBrownUniversity #ffffff {
-            dateRange = {
-            \t startDate = "1929-02-29" ^^ Date
-            \t startDateInclusive = "true" ^^ Boolean
-            } ^^ Date_Range
-            positionTitle = {
-            \t title = "Professor"@en ^^ Date
-            } ^^ Position_Title
-        }
-
-        JosiahBrownUniversity o--> Josiah : actor >
-
-        JosiahBrownUniversity o--> BrownUniversity : involved in >
-
         object "<u>University of Novi Sad:Organisation_Unit</u>" as NoviSadUniversity #ffffff {
             name = "University of Novi Sad"@en ^^ Multilingual_String
             rorId = "https://ror.org/00xa57a59" ^^ ROR_ID_Type
@@ -133,22 +112,9 @@
 
         SupercomputerRequest o--> AffiliationMarko : affiliation >
 
-        SupercomputerRequest o--> Josiah : addressee >
+        SupercomputerRequest o--> BrownUniversity : addressee >
 
         SupercomputerRequest o--> SupercomputerOffer : in response to >
-
-        object "<u>Supercomputer Renting Skill Needed:ExpertiseAndSkillsCondition</u>" as SupercomputerRentingSkillNeeded #ffffff {
-            level = "High level of the skill is needed proved by certificate."@en ^^ Multilingual_String
-        }
-
-        SupercomputerOffer o--> SupercomputerRentingSkillNeeded : expertise/skills condition >
-
-        object "<u>Microsoft Certified Solutions Expert:ExpertiseAndSkills</u>" as MicrosoftCertifiedSolutionsExpert #ffffff {
-            description = "Skills needed to move your company to the cloud,
-            \t increase user productivity and ..."@en ^^ Multilingual_String
-        }
-
-        SupercomputerRentingSkillNeeded o--> MicrosoftCertifiedSolutionsExpert : expertise >
 
         object "<u>Supercomputer Request Description:TextualDocument</u>" as SupercomputerRequestDescription #ffffff {
         }
