@@ -2,7 +2,7 @@
 
     !startsub resource
 
-        object "<u>Supercomputer:Infrastructure</u>" as Supercomputer #ffffff {
+        object "<u>Supercomputer : Infrastructure</u>" as Supercomputer #00ffff {
                  description = "Supercomputer which can be used for high
                  \t performance computing. Characteristics are the
                  \t following: ... "@en ^^ Multilingual_String
@@ -12,7 +12,7 @@
 
     !startsub agents
 
-        object "<u>Brown University:Organisation_Unit</u>" as BrownUniversity #ffffff {
+        object "<u>Brown University : Organisation_Unit</u>" as BrownUniversity #ffffff {
             name = "Brown University"@en ^^ Multilingual_String
             rorId = "https://ror.org/05gq02987" ^^ ROR_ID_Type
             websiteURL = "https://www.brown.edu/" ^^ URI
@@ -23,7 +23,7 @@
             } ^^ Postal_Address
         }
 
-        object "<u>University of Novi Sad:Organisation_Unit</u>" as NoviSadUniversity #ffffff {
+        object "<u>University of Novi Sad : Organisation_Unit</u>" as NoviSadUniversity #ffffff {
             name = "University of Novi Sad"@en ^^ Multilingual_String
             rorId = "https://ror.org/00xa57a59" ^^ ROR_ID_Type
             websiteURL = "https://www.uns.ac.rs/index.php/en/" ^^ URI
@@ -40,7 +40,7 @@
            } ^^ PersonName
         }
 
-        object "<u>Marko University of Novi Sad:Employment</u>" as MarkoNoviSadUniversity #ffffff {
+        object "<u>Marko University of Novi Sad : Employment</u>" as MarkoNoviSadUniversity #ffffff {
             dateRange = {
             \t startDate = "1931-02-29" ^^ Date
             \t startDateInclusive = "true" ^^ Boolean
@@ -65,7 +65,7 @@
 
     !startsub resource
 
-        object "<u>Supercomputer Possession:InfrastructurePossession</u>" as SupercomputerPossession #ffffff {
+        object "<u>Supercomputer Possession : Resource_Possession</u>" as SupercomputerPossession #ffffff {
             dateRange = {
             \t startDate = "2011-02-29" ^^ Date
             \t startDateInclusive = "true" ^^ Boolean
@@ -76,13 +76,13 @@
 
         SupercomputerPossession o--> BrownUniversity : owner >
 
-        SupercomputerPossession o--> Supercomputer : infrastructure >
+        SupercomputerPossession o--> Supercomputer : resource >
 
     !endsub
 
     !startsub resourceOffer
 
-        object "<u>Supercomputer Offer:ResourceOffer</u>" as SupercomputerOffer #ffffff {
+        object "<u>Supercomputer Offer : Resource_Offer</u>" as SupercomputerOffer #ffffff {
             dateRange = {
             \t startDate = "2015-02-29" ^^ Date
             \t startDateInclusive = "true" ^^ Boolean
@@ -95,7 +95,7 @@
 
         SupercomputerOffer o--> Supercomputer : resource >
 
-        object "<u>Supercomputer Renting Description:TextualDocument</u>" as SupercomputerRentingDescription #ffffff {
+        object "<u>Supercomputer Renting Description : Textual_Document</u>" as SupercomputerRentingDescription #ffffff {
         }
 
         SupercomputerOffer o--> SupercomputerRentingDescription : described in >
@@ -104,7 +104,7 @@
 
     !startsub resourceRequest
 
-        object "<u>Supercomputer Request:ResourceRequest</u>" as SupercomputerRequest #ffffff {
+        object "<u>Supercomputer Request : Resource_Request</u>" as SupercomputerRequest #ffffff {
             date = "2017-02-29" ^^ Date
         }
 
@@ -116,7 +116,7 @@
 
         SupercomputerRequest o--> SupercomputerOffer : in response to >
 
-        object "<u>Supercomputer Request Description:TextualDocument</u>" as SupercomputerRequestDescription #ffffff {
+        object "<u>Supercomputer Request Description : Textual_Document</u>" as SupercomputerRequestDescription #ffffff {
         }
 
         SupercomputerRequest o--> SupercomputerRequestDescription : described in >
@@ -125,12 +125,12 @@
 
     !startsub skillsExpertise
 
-        object "<u>Microsoft Certified Solutions Expert:ExpertiseAndSkills</u>" as MicrosoftCertifiedSolutionsExpert #ffffff {
+        object "<u>Microsoft Certified Solutions Expert : Expertise_and_Skills</u>" as MicrosoftCertifiedSolutionsExpert #ffffff {
             description = "Skills needed to move your company to the cloud,
             \t increase user productivity and ..."@en ^^ Multilingual_String
         }
 
-        object "<u>Supercomputer Renting Skill Needed:ExpertiseAndSkillsCondition</u>" as SupercomputerRentingSkillNeeded #ffffff {
+        object "<u>Supercomputer Renting Skill Needed : Expertise_and_Skills_Condition</u>" as SupercomputerRentingSkillNeeded #ffffff {
             level = "High level of the skill is needed proved by certificate."@en ^^ Multilingual_String
         }
 
@@ -138,7 +138,7 @@
 
         SupercomputerRentingSkillNeeded o--> MicrosoftCertifiedSolutionsExpert : expertise >
 
-        object "<u>Microsoft Certified Solutions Expert Possession:ExpertiseAndSkillsPossession</u>" as MicrosoftCertifiedSolutionsExpertPossession #ffffff {
+        object "<u>Microsoft Certified Solutions Expert Possession : Expertise_and_Skills_Possession</u>" as MicrosoftCertifiedSolutionsExpertPossession #ffffff {
             dateRange = {
             \t startDate = "2010-02-29" ^^ Date
             \t startDateInclusive = "true" ^^ Boolean
@@ -161,11 +161,11 @@
 
     !startsub decision
 
-        object "<u>Supercomputer Request Decision:Decision</u>" as SupercomputerRequestDecision #ffffff {
+        object "<u>Supercomputer Request Decision : Decision</u>" as SupercomputerRequestDecision #ffffff {
             date = "2017-06-31" ^^ Date
         }
 
-        SupercomputerRequestDecision o--> BrownUniversity : make >
+        SupercomputerRequestDecision o--> BrownUniversity : is made by >
 
         SupercomputerRequestDecision o--> SupercomputerRequest : on >
 

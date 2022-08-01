@@ -3,7 +3,7 @@
 
     !startsub persons
 
-        object "<u>Josiah:Person</u>" as Josiah #ffffff {
+        object "<u>Josiah : Person</u>" as Josiah #ffffff {
            personName = {
            \t firstNames = "Josiah"@en ^^ Multilingual_String
            \t familyNames = "Carberry"@en ^^ Multilingual_String
@@ -28,7 +28,7 @@
 
     !startsub institutions
 
-        object "<u>Wesleyan University:Organisation_Unit</u>" as WesleyeanUniversity #ffffff {
+        object "<u>Wesleyan University : Organisation_Unit</u>" as WesleyeanUniversity #ffffff {
                 name = "Wesleyan University"@en ^^ Multilingual_String
                 rorId = "https://ror.org/05h7xva58" ^^ ROR_ID
                 websiteURL = "https://www.wesleyan.edu/" ^^ URI
@@ -39,7 +39,7 @@
                 } ^^ Postal_Address
             }
 
-        object "<u>Brown University:Organisation_Unit</u>" as BrownUniversity #ffffff {
+        object "<u>Brown University : Organisation_Unit</u>" as BrownUniversity #ffffff {
                 name = "Brown University"@en ^^ Multilingual_String
                 rorId = "https://ror.org/05gq02987" ^^ ROR_ID_Type
                 websiteURL = "https://www.brown.edu/" ^^ URI
@@ -54,7 +54,7 @@
 
     !startsub employments
 
-        object "<u>Josiah Wesleyan University:Employment</u>" as JosiahWesleyeanUniversity #ffffff {
+        object "<u>Josiah Wesleyan University : Employment</u>" as JosiahWesleyeanUniversity #ffffff {
                 dateRange = {
                 \t startDate = "1930-02-29" ^^ Date
                 \t startDateInclusive = "true" ^^ Boolean
@@ -64,7 +64,7 @@
                 } ^^ Position_Title
             }
 
-        object "<u>Josiah Brown University:Employment</u>" as JosiahBrownUniversity #ffffff {
+        object "<u>Josiah Brown University : Employment</u>" as JosiahBrownUniversity #ffffff {
                 dateRange = {
                 \t startDate = "1929-02-29" ^^ Date
                 \t startDateInclusive = "true" ^^ Boolean
@@ -86,14 +86,14 @@
 
     !startsub articles
 
-        object "<u>Restricted Access: Restricted Access COAR v.1.0 Accessibility Specification</u>" as RestrictedAccess #00ff00
+        object "<u>Restricted Access : Restricted_Access_COAR_Accessibility_Specification_v_1_0</u>" as RestrictedAccess #00ff00
 
         object "<u>IEEE_TPS : Journal</u>" as IEEE_TPS #00ff00 {
             title = "IEEE Transactions on Plasma Science"@en ^^ Multilingual_String
             issn = "1939-9375" ^^ ISSN
         }
 
-        object "<u>10.1109/TPS.1987.4316723 : Journal Article</u>" as Article101109 #00ff00 {
+        object "<u>10.1109/TPS.1987.4316723 : Journal_Article</u>" as Article101109 #00ff00 {
                 DOI = "10.1109/TPS.1987.4316723" ^^ DOI_Type
                 title = "Bulk and surface plasmons in
                 \t artificially structured materials"@en ^^ Multilingual_String
@@ -112,7 +112,7 @@
 
     !startsub authorships
 
-         object "<u>Josiah Article101109:Authorship</u>" as JosiahArticle101109 #ffffff {
+         object "<u>Josiah Article101109 : Authorship</u>" as JosiahArticle101109 #ffffff {
                  correspondingAuthor = "false" ^^ Boolean
          }
 
@@ -129,7 +129,7 @@
 
          JosiahArticle101109 o--> Article101109 : document >
 
-         object "<u>John Article101109:Authorship</u>" as JohnArticle101109 #ffffff {
+         object "<u>John Article101109 : Authorship</u>" as JohnArticle101109 #ffffff {
                   correspondingAuthor = "true" ^^ Boolean
          }
 
@@ -147,7 +147,7 @@
 
     !startsub project
 
-        object "<u>INSP:Project</u>" as INSP #ffffff {
+        object "<u>INSP : Project</u>" as INSP #ffffff {
                  name = "Investigation of novel surface plasmons"@en ^^ Multilingual_String
                  acronym = "INSP" ^^ String
                  dateRange = {
@@ -158,14 +158,14 @@
                   } ^^ Date_Range
         }
 
-        object "<u>INSP_WP1:Project</u>" as INSP_WP1 #ffffff {
+        object "<u>INSP WP1 : Project</u>" as INSP_WP1 #ffffff {
                  name = "Artificially structured materials"@en ^^ Multilingual_String
                  acronym = "WP1" ^^ String
         }
 
         INSP_WP1 o--> INSP : part of >
 
-        object "<u>NIH_1049:Funding</u>" as NIH_1049 #ffffff {
+        object "<u>NIH 1049 : Funding</u>" as NIH_1049 #ffffff {
                  grantID = 1049 ^^ Grant_ID
                  budget = {
                  \t amount = 1000000 ^^ Decimal
@@ -179,12 +179,12 @@
 
     !startsub contributionStatementToArticle
 
-        object "<u>JosiahContributionStatement:CRediTContributionStatement</u>" as JosiahContributionStatement #00ff00 {
+        object "<u>Josiah Contribution Statement : CRediT_Contribution_Statement</u>" as JosiahContributionStatement #00ff00 {
                  roleType = Writing - original draft ^^ CRediT_Role_Type
                  degreeOfContribution = Lead ^^ CRediT_Degree_of_Contribution
         }
 
-        object "<u>JosiahResourceUsageStatement:ResourceUsageStatement</u>" as JosiahResourceUsageStatement #ffffff {
+        object "<u>Josiah Resource Usage Statement : Resource_Usage_Statement</u>" as JosiahResourceUsageStatement #ffffff {
                  statement = "This work was supported by the NIH [grant number 1049]."@en ^^ Multilingual_String
         }
 
@@ -198,7 +198,7 @@
 
     !startsub contributionToProject
 
-        object "<u>JosiahContributionToProject:ContributionToProject</u>" as JosiahContributionToProject #ffffff {
+        object "<u>Josiah Contribution to Project : Contribution_to_Project</u>" as JosiahContributionToProject #ffffff {
                  dateRange = {
                    \t startDate = "1985-02-29" ^^ Date
                    \t startDateInclusive = "true" ^^ Boolean
@@ -213,7 +213,7 @@
 
         JosiahContributionToProject o--> INSP : to >
 
-        object "<u>JosiahContributionToWP:ContributionToProject</u>" as JosiahContributionToWP #ffffff {
+        object "<u>Josiah Contribution to WP : Contribution_to_Project</u>" as JosiahContributionToWP #ffffff {
                  dateRange = {
                    \t startDate = "1986-02-29" ^^ Date
                    \t startDateInclusive = "true" ^^ Boolean
@@ -232,11 +232,11 @@
 
     !startsub contributionStatementToProject
 
-        object "<u>JosiahContributionStatementToProject:ContributionStatement</u>" as JosiahContributionStatementToProject #ffffff {
+        object "<u>Josiah Contribution Statement to Project : Contribution_Statement</u>" as JosiahContributionStatementToProject #ffffff {
                  statement = "Participate in the project as a researcher"@en ^^ Multilingual_String
         }
 
-        object "<u>JosiahContributionStatementToWP1:ContributionStatement</u>" as JosiahContributionStatementToWP1 #ffffff {
+        object "<u>Josiah Contribution Statement to WP1 : Contribution_Statement</u>" as JosiahContributionStatementToWP1 #ffffff {
                  statement = "Lead the WP1"@en ^^ Multilingual_String
         }
 
@@ -252,7 +252,7 @@
 
     !startsub reviewingActivity
 
-        object "<u>JosiahContributionToJournal:ContributionToJournal</u>" as JosiahContributionToJournal #ffffff {
+        object "<u>Josiah Contribution to Journal : Contribution_to_Journal</u>" as JosiahContributionToJournal #ffffff {
                  dateRange = {
                    \t startDate = "2004-02-02" ^^ Date
                    \t startDateInclusive = "true" ^^ Boolean
@@ -272,7 +272,7 @@
 
         JosiahContributionToJournal o--> JoP : to >
 
-        object "<u>JosiahContributionStatementToJournal:ContributionStatement</u>" as JosiahContributionStatementToJournal #ffffff {
+        object "<u>Josiah Contribution Statement to Journal : Contribution_Statement</u>" as JosiahContributionStatementToJournal #ffffff {
                  statement = "Performed review of one article for this journal"@en ^^ Multilingual_String
         }
 

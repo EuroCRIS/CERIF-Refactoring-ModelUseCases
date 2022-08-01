@@ -3,7 +3,7 @@
 
     !startsub persons
 
-        object "<u>Josiah:Person</u>" as Josiah #ffffff {
+        object "<u>Josiah : Person</u>" as Josiah #ffffff {
            personName = {
            \t firstNames = "Josiah"@en ^^ Multilingual_String
            \t familyNames = "Carberry"@en ^^ Multilingual_String
@@ -28,12 +28,12 @@
 
     !startsub expertise
 
-        object "<u>Experimenting in Chemistry:ExpertiseAndSkills</u>" as ExperimentingInChemistry #ffffff {
+        object "<u>Experimenting in Chemistry : Expertise_and_Skills</u>" as ExperimentingInChemistry #ffffff {
             description = "Expertise which enables conducting an experiment
             \t and reseach in the field of chemistry"@en ^^ Multilingual_String
         }
 
-        object "<u>Experimenting in Chemistry Possession:ExpertiseAndSkillsPossession</u>" as ExperimentingInChemistryPossession #ffffff {
+        object "<u>Experimenting in Chemistry Possession : Expertise_and_Skills_Possession</u>" as ExperimentingInChemistryPossession #ffffff {
 
         }
 
@@ -41,7 +41,7 @@
 
         ExperimentingInChemistryPossession o--> ExperimentingInChemistry : skill or expertise >
 
-        object "<u>Experimenting in Chemistry Providing:ExpertiseAndSkillsPossession</u>" as ExperimentingInChemistryProviding #ffffff {
+        object "<u>Experimenting in Chemistry Providing : Expertise_and_Skills_Possession</u>" as ExperimentingInChemistryProviding #ffffff {
             time = "65 hours" ^^ String
         }
 
@@ -51,7 +51,7 @@
 
     !startsub institutions
 
-        object "<u>Brown University:Organisation_Unit</u>" as BrownUniversity #ffffff {
+        object "<u>Brown University : Organisation_Unit</u>" as BrownUniversity #ffffff {
             name = "Brown University"@en ^^ Multilingual_String
             rorId = "https://ror.org/05gq02987" ^^ ROR_ID_Type
             websiteURL = "https://www.brown.edu/" ^^ URI
@@ -62,7 +62,7 @@
             } ^^ Postal_Address
         }
 
-        object "<u>NIH:Organisation_Unit</u>" as NIH #ffffff {
+        object "<u>NIH : Organisation_Unit</u>" as NIH #ffffff {
             name = "National Institutes of Health"@en ^^ Multilingual_String
             rorId = "https://ror.org/01cwqze88" ^^ ROR_ID_Type
             websiteURL = "https://www.nih.gov/" ^^ URI
@@ -76,7 +76,7 @@
 
     !startsub employments
 
-        object "<u>Josiah Brown University:Employment</u>" as JosiahBrownUniversity #ffffff {
+        object "<u>Josiah Brown University : Employment</u>" as JosiahBrownUniversity #ffffff {
             dateRange = {
             \t startDate = "1929-02-29" ^^ Date
             \t startDateInclusive = "true" ^^ Boolean
@@ -94,14 +94,14 @@
 
     !startsub articles
 
-        object "<u>Restricted Access: Restricted Access COAR v.1.0 Accessibility Specification</u>" as RestrictedAccess #00ff00
+        object "<u>Restricted Access : Restricted_Access_COAR_Accessibility_Specification_v_1_0</u>" as RestrictedAccess #00ff00
 
         object "<u>IEEE_TPS : Journal</u>" as IEEE_TPS #00ff00 {
             title = "IEEE Transactions on Plasma Science"@en ^^ Multilingual_String
             issn = "1939-9375" ^^ ISSN
         }
 
-        object "<u>10.1109/TPS.1987.4316723 : Journal Article</u>" as Article101109 #00ff00 {
+        object "<u>10.1109/TPS.1987.4316723 : Journal_Article</u>" as Article101109 #00ff00 {
             DOI = "10.1109/TPS.1987.4316723" ^^ DOI_Type
             title = "Bulk and surface plasmons in
             \t artificially structured materials"@en ^^ Multilingual_String
@@ -120,7 +120,7 @@
 
     !startsub authorships
 
-         object "<u>Josiah Article101109:Authorship</u>" as JosiahArticle101109 #ffffff {
+         object "<u>Josiah Article101109 : Authorship</u>" as JosiahArticle101109 #ffffff {
              correspondingAuthor = "false" ^^ Boolean
          }
 
@@ -137,7 +137,7 @@
 
          JosiahArticle101109 o--> Article101109 : document >
 
-         object "<u>John Article101109:Authorship</u>" as JohnArticle101109 #ffffff {
+         object "<u>John Article101109 : Authorship</u>" as JohnArticle101109 #ffffff {
               correspondingAuthor = "true" ^^ Boolean
          }
 
@@ -155,7 +155,7 @@
 
     !startsub project
 
-        object "<u>INSP:Project</u>" as INSP #ffffff {
+        object "<u>INSP : Project</u>" as INSP #ffffff {
              name = "Investigation of novel surface plasmons"@en ^^ Multilingual_String
              acronym = "INSP" ^^ String
              dateRange = {
@@ -166,12 +166,12 @@
              } ^^ Date_Range
         }
 
-        object "<u>INSP WP1:Project</u>" as INSP_WP1 #ffffff {
+        object "<u>INSP WP1 : Project</u>" as INSP_WP1 #ffffff {
              name = "Artificially structured materials"@en ^^ Multilingual_String
              acronym = "WP1" ^^ String
         }
 
-        object "<u>INSP WP1 T1:Project</u>" as INSP_WP1_T1 #ffffff {
+        object "<u>INSP WP1 T1 : Project</u>" as INSP_WP1_T1 #ffffff {
              name = "Bulk and surface collective charge density"@en ^^ Multilingual_String
              acronym = "WP1_T1" ^^ String
         }
@@ -180,7 +180,7 @@
 
         INSP_WP1 o--> INSP : part of >
 
-        object "<u>NIH 1049:Funding</u>" as NIH_1049 #ffffff {
+        object "<u>NIH 1049 : Funding</u>" as NIH_1049 #ffffff {
              grantID = 1049 ^^ Grant_ID
              budget = {
              \t amount = 1000000 ^^ Decimal
@@ -192,7 +192,7 @@
 
         NIH_1049 o--> NIH : agency >
 
-        object "<u>NIH 1049 WP1:Funding</u>" as NIH_1049_WP1 #ffffff {
+        object "<u>NIH 1049 WP1 : Funding</u>" as NIH_1049_WP1 #ffffff {
              budget = {
              \t amount = 200000 ^^ Decimal
              \t currencyCode = "USD" ^^ ISO_4217_Alpha_Code
@@ -201,7 +201,7 @@
 
         INSP_WP1 o--> NIH_1049_WP1 : funding source >
 
-        object "<u>NIH 1049 WP1 Task1:Funding</u>" as NIH_1049_WP1_Task1 #ffffff {
+        object "<u>NIH 1049 WP1 Task1 : Funding</u>" as NIH_1049_WP1_Task1 #ffffff {
              budget = {
              \t amount = 50000 ^^ Decimal
              \t currencyCode = "USD" ^^ ISO_4217_Alpha_Code
@@ -210,7 +210,7 @@
 
         INSP_WP1_T1 o--> NIH_1049_WP1_Task1 : funding source >
 
-        object "<u>NIH 1049 WP1 Task1 Josiah:Funding</u>" as NIH_1049_WP1_Task1_Josiah #ffffff {
+        object "<u>NIH 1049 WP1 Task1 Josiah : Funding</u>" as NIH_1049_WP1_Task1_Josiah #ffffff {
              budget = {
              \t amount = 5000 ^^ Decimal
              \t currencyCode = "USD" ^^ ISO_4217_Alpha_Code
@@ -219,7 +219,7 @@
 
         NIH_1049_WP1_Task1_Josiah o--> NIH_1049_WP1_Task1 : part of >
 
-        object "<u>NIH 1049 Josiah:Funding</u>" as NIH_1049_Josiah #ffffff {
+        object "<u>NIH 1049 Josiah : Funding</u>" as NIH_1049_Josiah #ffffff {
              budget = {
              \t amount = 25000 ^^ Decimal
              \t currencyCode = "USD" ^^ ISO_4217_Alpha_Code
@@ -232,7 +232,7 @@
 
         NIH_1049_WP1 o--> NIH_1049 : part of >
 
-        object "<u>NIH 1049 dissemination:Funding</u>" as NIH_1049_dissemination #ffffff {
+        object "<u>NIH 1049 dissemination : Funding</u>" as NIH_1049_dissemination #ffffff {
              budget = {
              \t amount = 40000 ^^ Decimal
              \t currencyCode = "USD" ^^ ISO_4217_Alpha_Code
@@ -243,7 +243,7 @@
 
         NIH_1049_dissemination o--> NIH_1049 : part of >
 
-        object "<u>NIH 1049 dissemination Article101109:Funding</u>" as NIH_1049_dissemination_Article101109 #ffffff {
+        object "<u>NIH 1049 dissemination Article101109 : Funding</u>" as NIH_1049_dissemination_Article101109 #ffffff {
              budget = {
              \t amount = 1000 ^^ Decimal
              \t currencyCode = "USD" ^^ ISO_4217_Alpha_Code
@@ -252,7 +252,7 @@
 
         NIH_1049_dissemination_Article101109 o--> NIH_1049_dissemination : part of >
 
-        object "<u>Brown University dissemination Article101109:Funding</u>" as Brown_University_dissemination_Article101109 #ffffff {
+        object "<u>Brown University dissemination Article101109 : Funding</u>" as Brown_University_dissemination_Article101109 #ffffff {
              budget = {
              \t amount = 500 ^^ Decimal
              \t currencyCode = "USD" ^^ ISO_4217_Alpha_Code
@@ -265,18 +265,18 @@
 
     !startsub contributionStatementToArticle
 
-        object "<u>Josiah Contribution Statement to Article:CRediTContributionStatement</u>" as JosiahContributionStatementToArticle #00ff00 {
+        object "<u>Josiah Contribution Statement to Article : CRediT_Contribution_Statement</u>" as JosiahContributionStatementToArticle #00ff00 {
              roleType = Writing - original draft ^^ CRediT_Role_Type
              degreeOfContribution = Lead ^^ CRediT_Degree_of_Contribution
         }
 
-        object "<u>Josiah Resource Usage Statement Article:ResourceUsageStatement</u>" as JosiahResourceUsageStatementArticle #ffffff {
+        object "<u>Josiah Resource Usage Statement Article : Resource_Usage_Statement</u>" as JosiahResourceUsageStatementArticle #ffffff {
             statement = "This work was supported by the NIH [grant number 1049]."@en ^^ Multilingual_String
         }
 
         JosiahContributionStatementToArticle o--> JosiahResourceUsageStatementArticle : resource usage statement >
 
-        JosiahResourceUsageStatementArticle o--> NIH_1049 : funding >
+        JosiahResourceUsageStatementArticle o--> NIH_1049 : resource >
 
         JosiahArticle101109 o--> JosiahContributionStatementToArticle : contribution statement >
 
@@ -284,7 +284,7 @@
 
     !startsub contributionToProject
 
-        object "<u>Josiah Contribution to Project:ContributionToProject</u>" as JosiahContributionToProject #ffffff {
+        object "<u>Josiah Contribution to Project : Contribution_to_Project</u>" as JosiahContributionToProject #ffffff {
              dateRange = {
                \t startDate = "1985-02-29" ^^ Date
                \t startDateInclusive = "true" ^^ Boolean
@@ -299,7 +299,7 @@
 
         JosiahContributionToProject o--> INSP : to >
 
-        object "<u>Josiah Contribution to WP:ContributionToProject</u>" as JosiahContributionToWP #ffffff {
+        object "<u>Josiah Contribution to WP : Contribution_to_Project</u>" as JosiahContributionToWP #ffffff {
              dateRange = {
                \t startDate = "1986-02-29" ^^ Date
                \t startDateInclusive = "true" ^^ Boolean
@@ -314,7 +314,7 @@
 
         JosiahContributionToWP o--> INSP_WP1 : to >
 
-        object "<u>Josiah Contribution to WP Task:ContributionToProject</u>" as JosiahContributionToWPTask #ffffff {
+        object "<u>Josiah Contribution to WP Task : Contribution_to_Project</u>" as JosiahContributionToWPTask #ffffff {
              dateRange = {
                \t startDate = "1987-02-29" ^^ Date
                \t startDateInclusive = "true" ^^ Boolean
@@ -331,7 +331,7 @@
 
         JosiahContributionToWPTask o--> Article101109 : evindeced by >
 
-        object "<u>NIH Contribution to Project:ContributionToProject</u>" as NIHContributionToProject #ffffff {
+        object "<u>NIH Contribution to Project : Contribution_to_Project</u>" as NIHContributionToProject #ffffff {
              dateRange = {
                \t startDate = "1985-02-29" ^^ Date
                \t startDateInclusive = "true" ^^ Boolean
@@ -348,7 +348,7 @@
 
     !startsub contributionToDocument
 
-        object "<u>Brown University Contribution to Article101109:ContributionToDocument</u>" as BrownUniversityContributionToArticle101109 #ffffff {
+        object "<u>Brown University Contribution to Article101109 : Contribution_to_Document</u>" as BrownUniversityContributionToArticle101109 #ffffff {
 
         }
 
@@ -356,7 +356,7 @@
 
         BrownUniversityContributionToArticle101109 o--> Article101109 : to >
 
-        object "<u>NIH Contribution to Article101109:ContributionToDocument</u>" as NIHContributionToArticle101109 #ffffff {
+        object "<u>NIH Contribution to Article101109 : Contribution_to_Document</u>" as NIHContributionToArticle101109 #ffffff {
 
         }
 
@@ -368,42 +368,42 @@
 
     !startsub contributionStatementToProject
 
-        object "<u>JosiahContributionStatementToProject:ContributionStatement</u>" as JosiahContributionStatementToProject #ffffff {
+        object "<u>JosiahContributionStatementToProject : Contribution_Statement</u>" as JosiahContributionStatementToProject #ffffff {
              statement = "Participate in the project as a researcher"@en ^^ Multilingual_String
         }
 
-        object "<u>JosiahContributionStatementToWP1:ContributionStatement</u>" as JosiahContributionStatementToWP1 #ffffff {
+        object "<u>JosiahContributionStatementToWP1 : Contribution_Statement</u>" as JosiahContributionStatementToWP1 #ffffff {
              statement = "Lead the WP1"@en ^^ Multilingual_String
         }
 
-        object "<u>JosiahContributionStatementToWP1Task1:ContributionStatement</u>" as JosiahContributionStatementToWP1Task1 #ffffff {
+        object "<u>JosiahContributionStatementToWP1Task1 : Contribution_Statement</u>" as JosiahContributionStatementToWP1Task1 #ffffff {
              statement = "Participate in the Task 1 of the WP1 by providing his
              \t expertise"@en ^^ Multilingual_String
         }
 
-        object "<u>JosiahResourceUsageStatementProject:ResourceUsageStatement</u>" as JosiahResourceUsageStatementProject #ffffff {
+        object "<u>JosiahResourceUsageStatementProject : Resource_Usage_Statement</u>" as JosiahResourceUsageStatementProject #ffffff {
              statement = "Researcher time paid from the NIH [grant number 1049]."@en ^^ Multilingual_String
         }
 
         JosiahContributionStatementToProject o--> JosiahResourceUsageStatementProject : resource usage statement >
 
-        JosiahResourceUsageStatementProject o--> NIH_1049_Josiah : funding >
+        JosiahResourceUsageStatementProject o--> NIH_1049_Josiah : resource >
 
-        object "<u>JosiahResourceUsageStatementWP:ResourceUsageStatement</u>" as JosiahResourceUsageStatementWP #ffffff {
+        object "<u>JosiahResourceUsageStatementWP : Resource_Usage_Statement</u>" as JosiahResourceUsageStatementWP #ffffff {
              statement = "Researcher time paid from the NIH [grant number 1049]. Total salary used for researcher for this WP is 15,000 USD."@en ^^ Multilingual_String
         }
 
         JosiahContributionStatementToWP1 o--> JosiahResourceUsageStatementWP : resource usage statement >
 
-        JosiahResourceUsageStatementWP o--> NIH_1049_WP1 : funding >
+        JosiahResourceUsageStatementWP o--> NIH_1049_WP1 : resource >
 
-        object "<u>JosiahResourceUsageStatementTask:ResourceUsageStatement</u>" as JosiahResourceUsageStatementTask #ffffff {
+        object "<u>JosiahResourceUsageStatementTask : Resource_Usage_Statement</u>" as JosiahResourceUsageStatementTask #ffffff {
              statement = "Researcher time paid from the NIH [grant number 1049]. "@en ^^ Multilingual_String
         }
 
         JosiahContributionStatementToWP1Task1 o--> JosiahResourceUsageStatementTask : resource usage statement >
 
-        JosiahResourceUsageStatementTask o--> NIH_1049_WP1_Task1_Josiah : funding >
+        JosiahResourceUsageStatementTask o--> NIH_1049_WP1_Task1_Josiah : resource >
 
         JosiahContributionStatementToWP1Task1 o--> ExperimentingInChemistryProviding : provides >
 
@@ -413,7 +413,7 @@
 
         JosiahContributionToWPTask o--> JosiahContributionStatementToWP1Task1 : contribution statement >
 
-        object "<u>NIHContributionStatementToProject:ContributionStatement</u>" as NIHContributionStatementToProject #ffffff {
+        object "<u>NIHContributionStatementToProject : Contribution_Statement</u>" as NIHContributionStatementToProject #ffffff {
              statement = "NIH provides funding to the project"@en ^^ Multilingual_String
         }
 
@@ -425,24 +425,24 @@
 
     !startsub contributionStatementToDocument
 
-        object "<u>BrownUniversityContributionStatementToArticle:ContributionStatement</u>" as BrownUniversityContributionStatementToArticle #ffffff {
+        object "<u>BrownUniversityContributionStatementToArticle : Contribution_Statement</u>" as BrownUniversityContributionStatementToArticle #ffffff {
              statement = "Paying 1,500 USD for APC and open-access for
              \t journal article"@en ^^ Multilingual_String
         }
 
-        object "<u>BrownUniversityResourceUsageStatementTaskArticle:ResourceUsageStatement</u>" as BrownUniversityResourceUsageStatementTaskArticle #ffffff {
+        object "<u>BrownUniversityResourceUsageStatementTaskArticle : Resource_Usage_Statement</u>" as BrownUniversityResourceUsageStatementTaskArticle #ffffff {
              statement = "Paying of part of APC and open-access to article covered by the NIH [grant number 1049]. "@en ^^ Multilingual_String
         }
 
         BrownUniversityContributionStatementToArticle o--> BrownUniversityResourceUsageStatementTaskArticle : resource usage statement >
 
-        BrownUniversityResourceUsageStatementTaskArticle o--> NIH_1049_dissemination_Article101109 : funding >
+        BrownUniversityResourceUsageStatementTaskArticle o--> NIH_1049_dissemination_Article101109 : resource >
 
         BrownUniversityContributionStatementToArticle o--> Brown_University_dissemination_Article101109 : provides >
 
         BrownUniversityContributionToArticle101109 o--> BrownUniversityContributionStatementToArticle : contribution statement >
 
-        object "<u>NIHContributionStatementToDocument:ContributionStatement</u>" as NIHContributionStatementToDocument #ffffff {
+        object "<u>NIHContributionStatementToDocument : Contribution_Statement</u>" as NIHContributionStatementToDocument #ffffff {
              statement = "NIH provides funding to publishing the paper in the open-access mode"@en ^^ Multilingual_String
         }
 
