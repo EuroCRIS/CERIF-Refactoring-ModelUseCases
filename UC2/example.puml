@@ -56,6 +56,16 @@
             } ^^ Postal_Address
         }
 
+        object "<u>NIH:Organisation_Unit</u>" as NIH #ffffff {
+            name = "National Institutes of Health"@en ^^ Multilingual_String
+            rorId = "https://ror.org/01cwqze88" ^^ ROR_ID_Type
+            websiteURL = "https://www.nih.gov/" ^^ URI
+            address = {
+            \tstateOrProvince = "Maryland"@en ^^ Multilingual_String
+            \tcountry = "USA"@en ^^ Multilingual_String
+            } ^^ Postal_Address
+        }
+
     !endsub
 
     !startsub employments
@@ -174,6 +184,8 @@
 
         INSP o--> NIH_1049 : funding source >
 
+        NIH_1049 o--> NIH : agency >
+
         object "<u>NIH 1049 WP1:Funding</u>" as NIH_1049_WP1 #ffffff {
              budget = {
              \t amount = 200000 ^^ Decimal
@@ -240,6 +252,8 @@
              \t currencyCode = "USD" ^^ ISO_4217_Alpha_Code
              } ^^ Monetary_Ammount
         }
+
+        Brown_University_dissemination_Article101109 o--> BrownUniversity : agency >
 
     !endsub
 

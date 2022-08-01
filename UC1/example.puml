@@ -4,25 +4,25 @@
     !startsub persons
 
         object "<u>Josiah:Person</u>" as Josiah #ffffff {
-               personName = {
-               \t firstNames = "Josiah"@en ^^ Multilingual_String
-               \t familyNames = "Carberry"@en ^^ Multilingual_String
-               } ^^ PersonName
-               description = "Josiah Stinkney Carberry is a fictional professor,
-               \t created as a joke in 1929. He is said to still teach at Brown University,
-               \t and to be known for his work in "psychoceramics", the supposed study of
-               \t "cracked pots". See his Wikipedia entry for more details."@en ^^ Multilingual_String
-               keywords = ["psychoceramics"@en "ionian philology"@en] List<Multilingual_String>
-               orcid_id = "https://orcid.org/0000-0002-1825-0097" ^^ ORCID_iD
-               scopus_author_id = "7007156898" ^^ SCOPUS_Author_ID
-               websiteURL = "http://library.brown.edu/about/hay/carberry.php"
-               otherIDs = [
-               \t\t\t {
-               \t\t\t\t label = "Wikipedia Entry"@en ^^ Multilingual_String
-               \t\t\t\t value = "http://en.wikipedia.org/wiki/Josiah_Carberry" ^^ String
-               \t\t\t}
-               \t\t] ^^ List<ID>
-            }
+           personName = {
+           \t firstNames = "Josiah"@en ^^ Multilingual_String
+           \t familyNames = "Carberry"@en ^^ Multilingual_String
+           } ^^ PersonName
+           description = "Josiah Stinkney Carberry is a fictional professor,
+           \t created as a joke in 1929. He is said to still teach at Brown University,
+           \t and to be known for his work in "psychoceramics", the supposed study of
+           \t "cracked pots". See his Wikipedia entry for more details."@en ^^ Multilingual_String
+           keywords = ["psychoceramics"@en "ionian philology"@en] List<Multilingual_String>
+           orcid_id = "https://orcid.org/0000-0002-1825-0097" ^^ ORCID_iD
+           scopus_author_id = "7007156898" ^^ SCOPUS_Author_ID
+           websiteURL = "http://library.brown.edu/about/hay/carberry.php"
+           otherIDs = [
+           \t\t\t {
+           \t\t\t\t label = "Wikipedia Entry"@en ^^ Multilingual_String
+           \t\t\t\t value = "http://en.wikipedia.org/wiki/Josiah_Carberry" ^^ String
+           \t\t\t}
+           \t\t] ^^ List<ID>
+        }
 
     !endsub
 

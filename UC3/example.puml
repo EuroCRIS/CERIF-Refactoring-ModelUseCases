@@ -10,26 +10,85 @@
 
     !endsub
 
-    !startsub institutions
+    !startsub agents
 
         object "<u>Brown University:Organisation_Unit</u>" as BrownUniversity #ffffff {
-                name = "Brown University"@en ^^ Multilingual_String
-                rorId = "https://ror.org/05gq02987" ^^ ROR_ID_Type
-                websiteURL = "https://www.brown.edu/" ^^ URI
-                address = {
-                \tcity = "Providence"@en ^^ Multilingual_String
-                \tstateOrProvince = "Rhode Island"@en ^^ Multilingual_String
-                \tcountry = "USA"@en ^^ Multilingual_String
-                } ^^ Postal_Address
+            name = "Brown University"@en ^^ Multilingual_String
+            rorId = "https://ror.org/05gq02987" ^^ ROR_ID_Type
+            websiteURL = "https://www.brown.edu/" ^^ URI
+            address = {
+            \tcity = "Providence"@en ^^ Multilingual_String
+            \tstateOrProvince = "Rhode Island"@en ^^ Multilingual_String
+            \tcountry = "USA"@en ^^ Multilingual_String
+            } ^^ Postal_Address
         }
 
+        object "<u>Josiah:Person</u>" as Josiah #ffffff {
+           personName = {
+           \t firstNames = "Josiah"@en ^^ Multilingual_String
+           \t familyNames = "Carberry"@en ^^ Multilingual_String
+           } ^^ PersonName
+        }
+
+        object "<u>Josiah Brown University:Employment</u>" as JosiahBrownUniversity #ffffff {
+            dateRange = {
+            \t startDate = "1929-02-29" ^^ Date
+            \t startDateInclusive = "true" ^^ Boolean
+            } ^^ Date_Range
+            positionTitle = {
+            \t title = "Professor"@en ^^ Date
+            } ^^ Position_Title
+        }
+
+        JosiahBrownUniversity o--> Josiah : actor >
+
+        object "<u>University of Novi Sad:Organisation_Unit</u>" as NoviSadUniversity #ffffff {
+            name = "University of Novi Sad"@en ^^ Multilingual_String
+            rorId = "https://ror.org/00xa57a59" ^^ ROR_ID_Type
+            websiteURL = "https://www.uns.ac.rs/index.php/en/" ^^ URI
+            address = {
+            \tcity = "Novi Sad"@en ^^ Multilingual_String
+            \tcountry = "Serbia"@en ^^ Multilingual_String
+            } ^^ Postal_Address
+        }
+
+        object "<u>Marko Miljekovic:Person</u>" as Marko #ffffff {
+           personName = {
+           \t firstNames = "Marko"@sr ^^ Multilingual_String
+           \t familyNames = "Miljeković"@sr ^^ Multilingual_String
+           } ^^ PersonName
+        }
+
+        object "<u>Marko University of Novi Sad:Employment</u>" as MarkoNoviSadUniversity #ffffff {
+            dateRange = {
+            \t startDate = "1931-02-29" ^^ Date
+            \t startDateInclusive = "true" ^^ Boolean
+            } ^^ Date_Range
+            positionTitle = {
+            \t title = "Professor"@en ^^ Date
+            } ^^ Position_Title
+        }
+
+        MarkoNoviSadUniversity o--> Marko : actor >
+
+        object "<u>Affiliation Marko : Affiliation_Statement</u>" as AffiliationMarko #ffffff {
+             displayAffiliation = "University of Novi Sad, Serbia" ^^ String
+             displayPersonName = "Marko Miljeković" ^^ String
+        }
+
+        MarkoNoviSadUniversity o--> AffiliationMarko : is the foundation for >
+
+    !endsub
+
+    !startsub resource
+
         object "<u>Supercomputer Possession:InfrastructurePossession</u>" as SupercomputerPossession #ffffff {
-                dateRange = {
-                \t startDate = "2011-02-29" ^^ Date
-                \t startDateInclusive = "true" ^^ Boolean
-                \t endDate = "2021-02-29" ^^ Date
-                \t endDateInclusive = "true" ^^ Boolean
-                } ^^ Date_Range
+            dateRange = {
+            \t startDate = "2011-02-29" ^^ Date
+            \t startDateInclusive = "true" ^^ Boolean
+            \t endDate = "2021-02-29" ^^ Date
+            \t endDateInclusive = "true" ^^ Boolean
+            } ^^ Date_Range
         }
 
         SupercomputerPossession o--> BrownUniversity : owner >
@@ -41,30 +100,17 @@
     !startsub resourceOffer
 
         object "<u>Supercomputer Offer:ResourceOffer</u>" as SupercomputerOffer #ffffff {
-                dateRange = {
-                \t startDate = "2011-02-29" ^^ Date
-                \t startDateInclusive = "true" ^^ Boolean
-                \t endDate = "2021-02-29" ^^ Date
-                \t endDateInclusive = "true" ^^ Boolean
-                } ^^ Date_Range
+            dateRange = {
+            \t startDate = "2015-02-29" ^^ Date
+            \t startDateInclusive = "true" ^^ Boolean
+            \t endDate = "2019-02-29" ^^ Date
+            \t endDateInclusive = "true" ^^ Boolean
+            } ^^ Date_Range
         }
 
-        SupercomputerOffer o--> BrownUniversity : owner >
+        SupercomputerOffer o--> BrownUniversity : issuer >
 
         SupercomputerOffer o--> Supercomputer : resource >
-
-        object "<u>Supercomputer Renting Skill Needed:ExpertiseAndSkillsCondition</u>" as SupercomputerRentingSkillNeeded #ffffff {
-                level = "High level of the skill is needed proved by certificate."@en ^^ Multilingual_String
-        }
-
-        SupercomputerOffer o--> SupercomputerRentingSkillNeeded : expertise/skills condition >
-
-        object "<u>Microsoft Certified Solutions Expert:ExpertiseAndSkills</u>" as MicrosoftCertifiedSolutionsExpert #ffffff {
-                description = "Skills needed to move your company to the cloud,
-                \t increase user productivity and ..."@en ^^ Multilingual_String
-        }
-
-        SupercomputerRentingSkillNeeded o--> MicrosoftCertifiedSolutionsExpert : expertise >
 
         object "<u>Supercomputer Renting Description:TextualDocument</u>" as SupercomputerRentingDescription #ffffff {
         }
@@ -75,7 +121,71 @@
 
     !startsub resourceRequest
 
+        object "<u>Supercomputer Request:ResourceRequest</u>" as SupercomputerRequest #ffffff {
+            date = "2017-02-29" ^^ Date
+        }
 
+        SupercomputerRequest o--> Marko : applicant >
+
+        SupercomputerRequest o--> AffiliationMarko : affiliation >
+
+        SupercomputerRequest o--> Josiah : addressee >
+
+        SupercomputerRequest o--> SupercomputerOffer : in response to >
+
+        object "<u>Supercomputer Renting Skill Needed:ExpertiseAndSkillsCondition</u>" as SupercomputerRentingSkillNeeded #ffffff {
+            level = "High level of the skill is needed proved by certificate."@en ^^ Multilingual_String
+        }
+
+        SupercomputerOffer o--> SupercomputerRentingSkillNeeded : expertise/skills condition >
+
+        object "<u>Microsoft Certified Solutions Expert:ExpertiseAndSkills</u>" as MicrosoftCertifiedSolutionsExpert #ffffff {
+            description = "Skills needed to move your company to the cloud,
+            \t increase user productivity and ..."@en ^^ Multilingual_String
+        }
+
+        SupercomputerRentingSkillNeeded o--> MicrosoftCertifiedSolutionsExpert : expertise >
+
+        object "<u>Supercomputer Request Description:TextualDocument</u>" as SupercomputerRequestDescription #ffffff {
+        }
+
+        SupercomputerRequest o--> SupercomputerRequestDescription : described in >
+
+    !endsub
+
+    !startsub skillsExpertise
+
+        object "<u>Microsoft Certified Solutions Expert:ExpertiseAndSkills</u>" as MicrosoftCertifiedSolutionsExpert #ffffff {
+            description = "Skills needed to move your company to the cloud,
+            \t increase user productivity and ..."@en ^^ Multilingual_String
+        }
+
+        object "<u>Supercomputer Renting Skill Needed:ExpertiseAndSkillsCondition</u>" as SupercomputerRentingSkillNeeded #ffffff {
+            level = "High level of the skill is needed proved by certificate."@en ^^ Multilingual_String
+        }
+
+        SupercomputerOffer o--> SupercomputerRentingSkillNeeded : expertise/skills condition >
+
+        SupercomputerRentingSkillNeeded o--> MicrosoftCertifiedSolutionsExpert : expertise >
+
+        object "<u>Microsoft Certified Solutions Expert Possession:ExpertiseAndSkillsPossession</u>" as MicrosoftCertifiedSolutionsExpertPossession #ffffff {
+            dateRange = {
+            \t startDate = "2010-02-29" ^^ Date
+            \t startDateInclusive = "true" ^^ Boolean
+            } ^^ Date_Range
+        }
+
+        object "<u>Microsoft Certificate : Document</u>" as MicrosoftCertificate #00ff00 {
+            title = "Microsoft Certificate for Marko
+            \t Miljeković"@en ^^ Multilingual_String
+            publicationDate = "2010-02-29" ^^ Date
+        }
+
+        MicrosoftCertifiedSolutionsExpertPossession o--> MicrosoftCertificate : evindeced by >
+
+        MicrosoftCertifiedSolutionsExpertPossession o--> Marko : owner >
+
+        MicrosoftCertifiedSolutionsExpertPossession o--> MicrosoftCertifiedSolutionsExpert : skill or expertise >
 
     !endsub
 
