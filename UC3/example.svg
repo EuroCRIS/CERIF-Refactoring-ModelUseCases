@@ -1,11 +1,24 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="439px" preserveAspectRatio="none" style="width:1544px;height:439px;background:#FFFFFF;" version="1.1" viewBox="0 0 1544 439" width="1544px" zoomAndPan="magnify"><defs><filter height="300%" id="f1id4v3w6nbj0g" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f1id4v3w6nbj0g)" height="60.8906" style="stroke:#A80036;stroke-width:1.5;" width="290" x="375.5" y="209"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="187" x="427" y="222.1387">Supercomputer:Infrastructure</text><line style="stroke:#A80036;stroke-width:1.5;" x1="376.5" x2="664.5" y1="226.9688" y2="226.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="278" x="381.5" y="240.251">description = "Supercomputer which can be used for high</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="233" x="408.5" y="251.8916">performance computing. Characteristics are the</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="197" x="408.5" y="263.5322">following: ... "@en ^^ Multilingual_String</text><rect fill="#FFFFFF" filter="url(#f1id4v3w6nbj0g)" height="119.0938" style="stroke:#A80036;stroke-width:1.5;" width="333" x="7" y="180"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="217" x="65" y="193.1387">Brown University:Organisation_Unit</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="339" y1="197.9688" y2="197.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="267" x="13" y="211.251">name = "Brown University"@en ^^ Multilingual_String</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="259" x="13" y="222.8916">rorId = "https://ror.org/05gq02987" ^^ ROR_ID_Type</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="237" x="13" y="234.5322">websiteURL = "https://www.brown.edu/" ^^ URI</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="58" x="13" y="246.1729">address = {</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="227" x="37" y="257.8135">city = "Providence"@en ^^ Multilingual_String</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="297" x="37" y="269.4541">stateOrProvince = "Rhode Island"@en ^^ Multilingual_String</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="215" x="37" y="281.0947">country = "USA"@en ^^ Multilingual_String</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="102" x="13" y="292.7354">} ^^ Postal_Address</text><rect fill="#FFFFFF" filter="url(#f1id4v3w6nbj0g)" height="95.8125" style="stroke:#A80036;stroke-width:1.5;" width="347" x="135" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="333" x="142" y="20.1387">Supercomputer Possession:InfrastructurePossession</text><line style="stroke:#A80036;stroke-width:1.5;" x1="136" x2="481" y1="24.9688" y2="24.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="73" x="141" y="38.251">dateRange = {</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="173" x="168" y="49.8916">startDate = "2011-02-29" ^^ Date</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="193" x="168" y="61.5322">startDateInclusive = "true" ^^ Boolean</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="168" x="168" y="73.1729">endDate = "2021-02-29" ^^ Date</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="188" x="168" y="84.8135">endDateInclusive = "true" ^^ Boolean</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="88" x="141" y="96.4541">} ^^ Date_Range</text><rect fill="#FFFFFF" filter="url(#f1id4v3w6nbj0g)" height="95.8125" style="stroke:#A80036;stroke-width:1.5;" width="238" x="671.5" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="224" x="678.5" y="20.1387">Supercomputer Offer:ResourceOffer</text><line style="stroke:#A80036;stroke-width:1.5;" x1="672.5" x2="908.5" y1="24.9688" y2="24.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="73" x="677.5" y="38.251">dateRange = {</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="173" x="704.5" y="49.8916">startDate = "2011-02-29" ^^ Date</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="193" x="704.5" y="61.5322">startDateInclusive = "true" ^^ Boolean</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="168" x="704.5" y="73.1729">endDate = "2021-02-29" ^^ Date</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="188" x="704.5" y="84.8135">endDateInclusive = "true" ^^ Boolean</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="88" x="677.5" y="96.4541">} ^^ Date_Range</text><rect fill="#FFFFFF" filter="url(#f1id4v3w6nbj0g)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="443" x="1087" y="220.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="406" x="1105.5" y="233.6387">Supercomputer Renting Skill Needed:ExpertiseAndSkillsCondition</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1088" x2="1529" y1="238.4688" y2="238.4688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="431" x="1093" y="251.751">level = "High level of the skill is needed proved by certificate."@en ^^ Multilingual_String</text><rect fill="#FFFFFF" filter="url(#f1id4v3w6nbj0g)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="350" x="1133.5" y="376"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="336" x="1140.5" y="389.1387">Microsoft Certified Solutions Expert:ExpertiseAndSkills</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1134.5" x2="1482.5" y1="393.9688" y2="393.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="313" x="1139.5" y="407.251">description = "Skills needed to move your company to the cloud,</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="294" x="1166.5" y="418.8916">increase user productivity and ..."@en ^^ Multilingual_String</text><rect fill="#FFFFFF" filter="url(#f1id4v3w6nbj0g)" height="33.9688" style="stroke:#A80036;stroke-width:1.5;" width="351" x="701" y="222.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="337" x="708" y="235.6387">Supercomputer Renting Description:TextualDocument</text><line style="stroke:#A80036;stroke-width:1.5;" x1="702" x2="1051" y1="240.4688" y2="240.4688"/><!--MD5=[4fc20442b185aa4693f2729c1cffcfb9]
-link SupercomputerPossession to BrownUniversity--><path codeLine="34" d="M266.2477,113.1204 C266.2477,113.1204 238.13,151.13 224.68,169.31 " fill="none" id="SupercomputerPossession-BrownUniversity" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="216.89,179.85,225.456,174.9896,219.8618,175.829,219.0224,170.2348,216.89,179.85" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="219.8618" x2="224.62" y1="175.829" y2="169.395"/><polygon fill="#FFFFFF" points="273.38,103.47,266.597,105.9178,266.2477,113.1204,273.0306,110.6726,273.38,103.47" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="251.5264,145.586,259.2684,140.0623,254.543,136.5666,251.5264,145.586" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="38" x="263.5" y="146.0669">owner</text><!--MD5=[df73f634d9d19fb2dcf405c1050b8b1d]
-link SupercomputerPossession to Supercomputer--><path codeLine="36" d="M338.4008,113.4704 C338.4008,113.4704 356.77,139.65 367.5,150 C389.05,170.78 416.39,188.58 441.99,202.65 " fill="none" id="SupercomputerPossession-Supercomputer" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="453.59,208.84,447.5407,201.0679,449.1811,206.4816,443.7673,208.122,453.59,208.84" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="449.1811" x2="442.125" y1="206.4816" y2="202.72"/><polygon fill="#FFFFFF" points="332.08,103.27,331.8403,110.4771,338.4008,113.4704,338.6405,106.2633,332.08,103.27" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="376.2892,144.8286,371.3519,136.7,367.517,141.1545,376.2892,144.8286" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="86" x="381.5" y="146.0669">infrastructure</text><!--MD5=[8818cd6d66baa4d911b962e9ac10b440]
-link SupercomputerOffer to BrownUniversity--><path codeLine="51" d="M659.9739,95.6209 C659.9739,95.6209 533.86,132.93 472.5,150 C421.61,164.16 408.24,165.33 357.5,180 C356,180.43 354.5,180.87 352.99,181.31 " fill="none" id="SupercomputerOffer-BrownUniversity" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="340.36,185.03,350.1233,186.3255,345.1565,183.618,347.864,178.6512,340.36,185.03" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="345.1565" x2="352.835" y1="183.618" y2="181.355"/><polygon fill="#FFFFFF" points="671.47,92.18,664.575,90.0684,659.9739,95.6209,666.8689,97.7325,671.47,92.18" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="525.6841,142.9107,535.1863,143.3096,533.606,137.6481,525.6841,142.9107" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="38" x="539.5" y="146.0669">owner</text><!--MD5=[37f9b93a840f91dc7be0d8b88f383929]
-link SupercomputerOffer to Supercomputer--><path codeLine="53" d="M710.6741,109.9541 C710.6741,109.9541 613.95,175.33 575.33,201.44 " fill="none" id="SupercomputerOffer-Supercomputer" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="564.32,208.88,574.0159,207.1509,568.4616,206.0787,569.5338,200.5244,564.32,208.88" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="568.4616" x2="575.09" y1="206.0787" y2="201.6"/><polygon fill="#FFFFFF" points="720.62,103.24,713.409,103.2818,710.6741,109.9541,717.8851,109.9124,720.62,103.24" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="673.3576,144.3665,682.4971,141.736,679.2054,136.8663,673.3576,144.3665" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="56" x="686.5" y="146.0669">resource</text><!--MD5=[e587ab80a3f4da1a3cb40d3dd269fa7a]
-link SupercomputerOffer to SupercomputerRentingSkillNeeded--><path codeLine="59" d="M920.9766,101.9718 C920.9766,101.9718 1165.06,187.96 1245.05,216.15 " fill="none" id="SupercomputerOffer-SupercomputerRentingSkillNeeded" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1257.36,220.48,1250.1986,213.7188,1252.6436,218.8199,1247.5425,221.265,1257.36,220.48" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1252.6436" x2="1245.1" y1="218.8199" y2="216.16"/><polygon fill="#FFFFFF" points="909.66,97.98,913.9877,103.7481,920.9766,101.9718,916.6489,96.2037,909.66,97.98" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="1059.2159,143.2279,1051.6614,137.4503,1049.7082,142.9941,1059.2159,143.2279" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="155" x="1063.5" y="146.0669">expertise/skills condition</text><!--MD5=[901be87ef7d39ecc5f86fde132da4629]
-link SupercomputerRentingSkillNeeded to MicrosoftCertifiedSolutionsExpert--><path codeLine="66" d="M1308.5,270.74 C1308.5,270.74 1308.5,334.99 1308.5,362.44 " fill="none" id="SupercomputerRentingSkillNeeded-MicrosoftCertifiedSolutionsExpert" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1308.5,375.81,1312.5,366.81,1308.5,370.81,1304.5,366.81,1308.5,375.81" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1308.5" x2="1308.5" y1="370.81" y2="362.81"/><polygon fill="#FFFFFF" points="1308.5,258.74,1304.5,264.74,1308.5,270.74,1312.5,264.74,1308.5,258.74" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="1313.5,342.5664,1316.4389,333.5213,1310.5611,333.5213,1313.5,342.5664" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="59" x="1322.5" y="342.0669">expertise</text><!--MD5=[733705e246e81476adcddf3d5e0e7b54]
-link SupercomputerOffer to SupercomputerRentingDescription--><path codeLine="71" d="M817.9872,114.3242 C817.9872,114.3242 851.24,184.9 863.14,210.15 " fill="none" id="SupercomputerOffer-SupercomputerRentingDescription" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="868.78,222.12,868.5648,212.2735,866.65,217.5964,861.327,215.6816,868.78,222.12" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="866.65" x2="863.24" y1="217.5964" y2="210.36"/><polygon fill="#FFFFFF" points="812.87,103.47,811.8105,110.6028,817.9872,114.3242,819.0467,107.1914,812.87,103.47" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="840.6312,146.0894,839.4344,136.6545,834.1172,139.1599,840.6312,146.0894" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="77" x="847.5" y="146.0669">described in</text><!--MD5=[470bf61fcdfc039530d3268b6c8e1684]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="646px" preserveAspectRatio="none" style="width:2790px;height:646px;background:#FFFFFF;" version="1.1" viewBox="0 0 2790 646" width="2790px" zoomAndPan="magnify"><defs><filter height="300%" id="fraehergtru31" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#fraehergtru31)" height="60.8906" style="stroke:#A80036;stroke-width:1.5;" width="290" x="299.5" y="393"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="187" x="351" y="406.1387">Supercomputer:Infrastructure</text><line style="stroke:#A80036;stroke-width:1.5;" x1="300.5" x2="588.5" y1="410.9688" y2="410.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="278" x="305.5" y="424.251">description = "Supercomputer which can be used for high</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="233" x="332.5" y="435.8916">performance computing. Characteristics are the</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="197" x="332.5" y="447.5322">following: ... "@en ^^ Multilingual_String</text><rect fill="#FFFFFF" filter="url(#fraehergtru31)" height="119.0938" style="stroke:#A80036;stroke-width:1.5;" width="333" x="644" y="364"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="217" x="702" y="377.1387">Brown University:Organisation_Unit</text><line style="stroke:#A80036;stroke-width:1.5;" x1="645" x2="976" y1="381.9688" y2="381.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="267" x="650" y="395.251">name = "Brown University"@en ^^ Multilingual_String</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="259" x="650" y="406.8916">rorId = "https://ror.org/05gq02987" ^^ ROR_ID_Type</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="237" x="650" y="418.5322">websiteURL = "https://www.brown.edu/" ^^ URI</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="58" x="650" y="430.1729">address = {</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="227" x="674" y="441.8135">city = "Providence"@en ^^ Multilingual_String</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="297" x="674" y="453.4541">stateOrProvince = "Rhode Island"@en ^^ Multilingual_String</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="215" x="674" y="465.0947">country = "USA"@en ^^ Multilingual_String</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="102" x="650" y="476.7354">} ^^ Postal_Address</text><rect fill="#FFFFFF" filter="url(#fraehergtru31)" height="72.5313" style="stroke:#A80036;stroke-width:1.5;" width="304" x="389.5" y="202.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="85" x="499" y="215.6387">Josiah:Person</text><line style="stroke:#A80036;stroke-width:1.5;" x1="390.5" x2="692.5" y1="220.4688" y2="220.4688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="83" x="395.5" y="233.751">personName = {</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="238" x="422.5" y="245.3916">firstNames = "Josiah"@en ^^ Multilingual_String</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="265" x="422.5" y="257.0322">familyNames = "Carberry"@en ^^ Multilingual_String</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="92" x="395.5" y="268.6729">} ^^ PersonName</text><rect fill="#FFFFFF" filter="url(#fraehergtru31)" height="107.4531" style="stroke:#A80036;stroke-width:1.5;" width="237" x="423" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="223" x="430" y="20.1387">Josiah Brown University:Employment</text><line style="stroke:#A80036;stroke-width:1.5;" x1="424" x2="659" y1="24.9688" y2="24.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="73" x="429" y="38.251">dateRange = {</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="173" x="456" y="49.8916">startDate = "1929-02-29" ^^ Date</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="193" x="456" y="61.5322">startDateInclusive = "true" ^^ Boolean</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="88" x="429" y="73.1729">} ^^ Date_Range</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="76" x="429" y="84.8135">positionTitle = {</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="158" x="456" y="96.4541">title = "Professor"@en ^^ Date</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="90" x="429" y="108.0947">} ^^ Position_Title</text><rect fill="#FFFFFF" filter="url(#fraehergtru31)" height="107.4531" style="stroke:#A80036;stroke-width:1.5;" width="306" x="2470.5" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="249" x="2499" y="20.1387">University of Novi Sad:Organisation_Unit</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2471.5" x2="2775.5" y1="24.9688" y2="24.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="293" x="2476.5" y="38.251">name = "University of Novi Sad"@en ^^ Multilingual_String</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="259" x="2476.5" y="49.8916">rorId = "https://ror.org/00xa57a59" ^^ ROR_ID_Type</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="294" x="2476.5" y="61.5322">websiteURL = "https://www.uns.ac.rs/index.php/en/" ^^ URI</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="58" x="2476.5" y="73.1729">address = {</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="217" x="2500.5" y="84.8135">city = "Novi Sad"@en ^^ Multilingual_String</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="224" x="2500.5" y="96.4541">country = "Serbia"@en ^^ Multilingual_String</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="102" x="2476.5" y="108.0947">} ^^ Postal_Address</text><rect fill="#FFFFFF" filter="url(#fraehergtru31)" height="72.5313" style="stroke:#A80036;stroke-width:1.5;" width="302" x="1739.5" y="202.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="148" x="1816.5" y="215.6387">Marko Miljekovic:Person</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1740.5" x2="2040.5" y1="220.4688" y2="220.4688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="83" x="1745.5" y="233.751">personName = {</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="237" x="1772.5" y="245.3916">firstNames = "Marko"@sr ^^ Multilingual_String</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="263" x="1772.5" y="257.0322">familyNames = "Miljeković"@sr ^^ Multilingual_String</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="92" x="1745.5" y="268.6729">} ^^ PersonName</text><rect fill="#FFFFFF" filter="url(#fraehergtru31)" height="107.4531" style="stroke:#A80036;stroke-width:1.5;" width="270" x="1575.5" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="256" x="1582.5" y="20.1387">Marko University of Novi Sad:Employment</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1576.5" x2="1844.5" y1="24.9688" y2="24.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="73" x="1581.5" y="38.251">dateRange = {</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="173" x="1608.5" y="49.8916">startDate = "1931-02-29" ^^ Date</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="193" x="1608.5" y="61.5322">startDateInclusive = "true" ^^ Boolean</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="88" x="1581.5" y="73.1729">} ^^ Date_Range</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="76" x="1581.5" y="84.8135">positionTitle = {</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="158" x="1608.5" y="96.4541">title = "Professor"@en ^^ Date</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="90" x="1581.5" y="108.0947">} ^^ Position_Title</text><rect fill="#FFFFFF" filter="url(#fraehergtru31)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="311" x="1393" y="214.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="240" x="1428.5" y="227.6387">Affiliation Marko : Affiliation_Statement</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1394" x2="1703" y1="232.4688" y2="232.4688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="299" x="1399" y="245.751">displayAffiliation = "University of Novi Sad, Serbia" ^^ String</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="250" x="1399" y="257.3916">displayPersonName = "Marko Miljeković" ^^ String</text><rect fill="#FFFFFF" filter="url(#fraehergtru31)" height="95.8125" style="stroke:#A80036;stroke-width:1.5;" width="347" x="7" y="191"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="333" x="14" y="204.1387">Supercomputer Possession:InfrastructurePossession</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="353" y1="208.9688" y2="208.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="73" x="13" y="222.251">dateRange = {</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="173" x="40" y="233.8916">startDate = "2011-02-29" ^^ Date</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="193" x="40" y="245.5322">startDateInclusive = "true" ^^ Boolean</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="168" x="40" y="257.1729">endDate = "2021-02-29" ^^ Date</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="188" x="40" y="268.8135">endDateInclusive = "true" ^^ Boolean</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="88" x="13" y="280.4541">} ^^ Date_Range</text><rect fill="#FFFFFF" filter="url(#fraehergtru31)" height="95.8125" style="stroke:#A80036;stroke-width:1.5;" width="238" x="1119.5" y="191"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="224" x="1126.5" y="204.1387">Supercomputer Offer:ResourceOffer</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1120.5" x2="1356.5" y1="208.9688" y2="208.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="73" x="1125.5" y="222.251">dateRange = {</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="173" x="1152.5" y="233.8916">startDate = "2015-02-29" ^^ Date</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="193" x="1152.5" y="245.5322">startDateInclusive = "true" ^^ Boolean</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="168" x="1152.5" y="257.1729">endDate = "2019-02-29" ^^ Date</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="188" x="1152.5" y="268.8135">endDateInclusive = "true" ^^ Boolean</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="88" x="1125.5" y="280.4541">} ^^ Date_Range</text><rect fill="#FFFFFF" filter="url(#fraehergtru31)" height="33.9688" style="stroke:#A80036;stroke-width:1.5;" width="351" x="1495" y="406.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="337" x="1502" y="419.6387">Supercomputer Renting Description:TextualDocument</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1496" x2="1845" y1="424.4688" y2="424.4688"/><rect fill="#FFFFFF" filter="url(#fraehergtru31)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="282" x="1097.5" y="41.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="268" x="1104.5" y="54.6387">Supercomputer Request:ResourceRequest</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1098.5" x2="1378.5" y1="59.4688" y2="59.4688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="148" x="1103.5" y="72.751">date = "2017-02-29" ^^ Date</text><rect fill="#FFFFFF" filter="url(#fraehergtru31)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="443" x="1017" y="399"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="406" x="1035.5" y="412.1387">Supercomputer Renting Skill Needed:ExpertiseAndSkillsCondition</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1018" x2="1459" y1="416.9688" y2="416.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="431" x="1023" y="430.251">level = "High level of the skill is needed proved by certificate."@en ^^ Multilingual_String</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="431" x="1023" y="441.8916">level = "High level of the skill is needed proved by certificate."@en ^^ Multilingual_String</text><rect fill="#FFFFFF" filter="url(#fraehergtru31)" height="72.5313" style="stroke:#A80036;stroke-width:1.5;" width="350" x="1177.5" y="560"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="336" x="1184.5" y="573.1387">Microsoft Certified Solutions Expert:ExpertiseAndSkills</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1178.5" x2="1526.5" y1="577.9688" y2="577.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="313" x="1183.5" y="591.251">description = "Skills needed to move your company to the cloud,</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="294" x="1210.5" y="602.8916">increase user productivity and ..."@en ^^ Multilingual_String</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="313" x="1183.5" y="614.5322">description = "Skills needed to move your company to the cloud,</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="294" x="1210.5" y="626.1729">increase user productivity and ..."@en ^^ Multilingual_String</text><rect fill="#FFFFFF" filter="url(#fraehergtru31)" height="33.9688" style="stroke:#A80036;stroke-width:1.5;" width="355" x="729" y="222"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="341" x="736" y="235.1387">Supercomputer Request Description:TextualDocument</text><line style="stroke:#A80036;stroke-width:1.5;" x1="730" x2="1083" y1="239.9688" y2="239.9688"/><rect fill="#FFFFFF" filter="url(#fraehergtru31)" height="72.5313" style="stroke:#A80036;stroke-width:1.5;" width="496" x="1939.5" y="24"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="482" x="1946.5" y="37.1387">Microsoft Certified Solutions Expert Possession:ExpertiseAndSkillsPossession</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1940.5" x2="2434.5" y1="41.9688" y2="41.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="73" x="1945.5" y="55.251">dateRange = {</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="173" x="1972.5" y="66.8916">startDate = "2010-02-29" ^^ Date</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="193" x="1972.5" y="78.5322">startDateInclusive = "true" ^^ Boolean</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="88" x="1945.5" y="90.1729">} ^^ Date_Range</text><rect fill="#00FF00" filter="url(#fraehergtru31)" height="60.8906" style="stroke:#A80036;stroke-width:1.5;" width="221" x="2077" y="208.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="201" x="2087" y="221.6387">Microsoft Certificate : Document</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2078" x2="2297" y1="226.4688" y2="226.4688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="186" x="2083" y="239.751">title = "Microsoft Certificate for Marko</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="182" x="2110" y="251.3916">Miljeković"@en ^^ Multilingual_String</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="201" x="2083" y="263.0322">publicationDate = "2010-02-29" ^^ Date</text><!--MD5=[eb91e32861d1bbbfc745c68b84b88b73]
+link JosiahBrownUniversity to Josiah--><path codeLine="42" d="M541.5,126.46 C541.5,126.46 541.5,170.22 541.5,189.19 " fill="none" id="JosiahBrownUniversity-Josiah" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="541.5,202.4,545.5,193.4,541.5,197.4,537.5,193.4,541.5,202.4" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="541.5" x2="541.5" y1="197.4" y2="189.4"/><polygon fill="#FFFFFF" points="541.5,114.46,537.5,120.46,541.5,126.46,545.5,120.46,541.5,114.46" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="546.5,157.5664,549.4389,148.5213,543.5611,148.5213,546.5,157.5664" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="33" x="555.5" y="157.0669">actor</text><!--MD5=[0ae76a1107be1cbd0df9709cd81b1c8c]
+link MarkoNoviSadUniversity to Marko--><path codeLine="71" d="M1773.0806,122.8591 C1773.0806,122.8591 1823.16,171.97 1844.66,193.05 " fill="none" id="MarkoNoviSadUniversity-Marko" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1854.2,202.4,1850.5718,193.2438,1850.6289,198.9004,1844.9724,198.9575,1854.2,202.4" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1850.6289" x2="1844.915" y1="198.9004" y2="193.3"/><polygon fill="#FFFFFF" points="1764.51,114.46,1765.9956,121.5164,1773.0806,122.8591,1771.595,115.8027,1764.51,114.46" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="1820.07,156.0671,1815.6695,147.6359,1811.5541,151.8326,1820.07,156.0671" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="33" x="1825.5" y="157.0669">actor</text><!--MD5=[0deb1dfed817e8290dd8b597beae091b]
+link MarkoNoviSadUniversity to AffiliationMarko--><path codeLine="78" d="M1653.7819,123.3064 C1653.7819,123.3064 1600.19,181.69 1579.47,204.26 " fill="none" id="MarkoNoviSadUniversity-AffiliationMarko" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1570.49,214.04,1579.5231,210.1152,1573.8714,210.3567,1573.6298,204.705,1570.49,214.04" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1573.8714" x2="1579.285" y1="210.3567" y2="204.46"/><polygon fill="#FFFFFF" points="1661.89,114.46,1654.8872,116.1805,1653.7819,123.3064,1660.7847,121.5859,1661.89,114.46" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="1636.1188,156.2498,1644.4005,151.5739,1640.0704,147.599,1636.1188,156.2498" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="128" x="1648.5" y="157.0669">is the foundation for</text><!--MD5=[4fc20442b185aa4693f2729c1cffcfb9]
+link SupercomputerPossession to BrownUniversity--><path codeLine="93" d="M354.6768,290.4567 C354.6768,290.4567 544.8,345.53 631.18,370.56 " fill="none" id="SupercomputerPossession-BrownUniversity" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="643.8,374.21,636.2672,367.8652,638.9972,372.8197,634.0427,375.5497,643.8,374.21" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="638.9972" x2="631.315" y1="372.8197" y2="370.59"/><polygon fill="#FFFFFF" points="343.15,287.12,347.8012,292.6306,354.6768,290.4567,350.0256,284.9461,343.15,287.12" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="505.3025,326.9577,497.4325,321.618,495.7969,327.2637,505.3025,326.9577" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="38" x="509.5" y="330.0669">owner</text><!--MD5=[df73f634d9d19fb2dcf405c1050b8b1d]
+link SupercomputerPossession to Supercomputer--><path codeLine="95" d="M258.7015,294.063 C258.7015,294.063 353.23,359.41 390.91,385.45 " fill="none" id="SupercomputerPossession-Supercomputer" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="401.65,392.88,396.5283,384.4676,397.5394,390.0334,391.9737,391.0445,401.65,392.88" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="397.5394" x2="390.96" y1="390.0334" y2="385.49"/><polygon fill="#FFFFFF" points="248.83,287.24,251.4914,293.942,258.7015,294.063,256.0401,287.361,248.83,287.24" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="321.613,328.4095,315.8436,320.8487,312.5014,325.6839,321.613,328.4095" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="86" x="326.5" y="330.0669">infrastructure</text><!--MD5=[8818cd6d66baa4d911b962e9ac10b440]
+link SupercomputerOffer to BrownUniversity--><path codeLine="110" d="M1116.9621,291.8279 C1116.9621,291.8279 1010.9,337.05 959.92,358.79 " fill="none" id="SupercomputerOffer-BrownUniversity" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="947.77,363.97,957.6177,364.1184,952.3691,362.0084,954.4791,356.7598,947.77,363.97" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="952.3691" x2="959.725" y1="362.0084" y2="358.865"/><polygon fill="#FFFFFF" points="1128,287.12,1120.9117,285.7947,1116.9621,291.8279,1124.0504,293.1533,1128,287.12" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="1050.9007,327.5275,1060.3737,326.6832,1058.0682,321.2764,1050.9007,327.5275" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="38" x="1064.5" y="330.0669">issuer</text><!--MD5=[37f9b93a840f91dc7be0d8b88f383929]
+link SupercomputerOffer to Supercomputer--><path codeLine="112" d="M1107.7347,285.3841 C1107.7347,285.3841 1103.24,286.56 1101.5,287 C997.78,313 730.47,339.01 626.5,364 C598.1,370.83 567.71,379.87 540.06,388.81 " fill="none" id="SupercomputerOffer-Supercomputer" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="527.57,392.9,537.3676,393.9032,532.3221,391.3453,534.88,386.2998,527.57,392.9" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="532.3221" x2="539.925" y1="391.3453" y2="388.855"/><polygon fill="#FFFFFF" points="1119.31,282.22,1112.4676,279.9436,1107.7347,285.3841,1114.577,287.6605,1119.31,282.22" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="919.581,326.4626,929.0064,327.7327,927.9528,321.95,919.581,326.4626" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="56" x="933.5" y="330.0669">resource</text><!--MD5=[733705e246e81476adcddf3d5e0e7b54]
+link SupercomputerOffer to SupercomputerRentingDescription--><path codeLine="117" d="M1368.9696,284.9743 C1368.9696,284.9743 1373.66,286.43 1375.5,287 C1423.94,301.9 1438.67,297.63 1485.5,317 C1540.68,339.83 1599.88,375.85 1636.05,399.33 " fill="none" id="SupercomputerOffer-SupercomputerRentingDescription" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1646.96,406.47,1641.6271,398.1899,1642.7787,403.7283,1637.2403,404.8799,1646.96,406.47" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1642.7787" x2="1636.085" y1="403.7283" y2="399.345"/><polygon fill="#FFFFFF" points="1357.53,281.35,1362.0417,286.9753,1368.9696,284.9743,1364.4579,279.3489,1357.53,281.35" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="1533.0964,327.5344,1525.9382,321.2725,1523.6247,326.6759,1533.0964,327.5344" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="77" x="1537.5" y="330.0669">described in</text><!--MD5=[f612b0f91bad36f61b64713c084ba7f7]
+link SupercomputerRequest to Marko--><path codeLine="127" d="M1307.3646,83.2001 C1307.3646,83.2001 1430.54,122.74 1492.5,144 C1513.51,151.21 1518.01,155.39 1539.5,161 C1618.83,181.7 1641.45,173.32 1721.5,191 C1732.75,193.48 1744.36,196.26 1755.98,199.19 " fill="none" id="SupercomputerRequest-Marko" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1768.58,202.41,1760.8545,196.3012,1763.7365,201.1689,1758.8688,204.0509,1768.58,202.41" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1763.7365" x2="1755.99" y1="201.1689" y2="199.19"/><polygon fill="#FFFFFF" points="1295.93,79.56,1300.4339,85.1916,1307.3646,83.2001,1302.8607,77.5685,1295.93,79.56" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="1549.3408,153.818,1541.3194,148.7085,1539.848,154.3992,1549.3408,153.818" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="58" x="1553.5" y="157.0669">applicant</text><!--MD5=[64cdae466f41e70a4fbf195b2d87ded9]
+link SupercomputerRequest to AffiliationMarko--><path codeLine="129" d="M1280.6446,85.5037 C1280.6446,85.5037 1435.19,173.49 1495.5,207.82 " fill="none" id="SupercomputerRequest-AffiliationMarko" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1507.04,214.4,1501.1952,206.4729,1502.6941,211.9276,1497.2394,213.4264,1507.04,214.4" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1502.6941" x2="1495.74" y1="211.9276" y2="207.965"/><polygon fill="#FFFFFF" points="1270.22,79.56,1273.4511,86.0067,1280.6446,85.5037,1277.4135,79.057,1270.22,79.56" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="1421.8452,155.0401,1415.4387,148.0111,1412.5307,153.1192,1421.8452,155.0401" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="57" x="1426.5" y="157.0669">affiliation</text><!--MD5=[c1f4d14f2ccd3e4212ea8f8b078ac960]
+link SupercomputerRequest to Josiah--><path codeLine="131" d="M1150.2872,82.363 C1150.2872,82.363 864.86,150.97 711.5,191 C701.71,193.56 691.61,196.24 681.45,198.96 " fill="none" id="SupercomputerRequest-Josiah" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="668.57,202.44,678.301,203.9591,673.3976,201.1384,676.2184,196.235,668.57,202.44" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="673.3976" x2="681.125" y1="201.1384" y2="199.055"/><polygon fill="#FFFFFF" points="1161.96,79.58,1155.1959,77.0806,1150.2872,82.363,1157.0513,84.8624,1161.96,79.58" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="885.6478,153.7731,895.1348,154.4422,893.7162,148.7381,885.6478,153.7731" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="67" x="899.5" y="157.0669">addressee</text><!--MD5=[325784bccdcd23f34d05664c4ead421b]
+link SupercomputerRequest to SupercomputerOffer--><path codeLine="133" d="M1238.5,91.72 C1238.5,91.72 1238.5,149.25 1238.5,177.68 " fill="none" id="SupercomputerRequest-SupercomputerOffer" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1238.5,190.81,1242.5,181.81,1238.5,185.81,1234.5,181.81,1238.5,190.81" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1238.5" x2="1238.5" y1="185.81" y2="177.81"/><polygon fill="#FFFFFF" points="1238.5,79.72,1234.5,85.72,1238.5,91.72,1242.5,85.72,1238.5,79.72" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="1243.5,157.5664,1246.4389,148.5213,1240.5611,148.5213,1243.5,157.5664" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="91" x="1252.5" y="157.0669">in response to</text><!--MD5=[e587ab80a3f4da1a3cb40d3dd269fa7a]
+link SupercomputerOffer to SupercomputerRentingSkillNeeded--><path codeLine="139" d="M1300.1843,297.5395 C1300.1843,297.5395 1308.56,321.78 1304.5,334 C1297.83,354.1 1284.62,373.34 1271.76,388.71 " fill="none" id="SupercomputerOffer-SupercomputerRentingSkillNeeded" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1263,398.7,1271.942,394.5719,1266.2972,394.9412,1265.9279,389.2964,1263,398.7" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1266.2972" x2="1271.57" y1="394.9412" y2="388.93"/><polygon fill="#FFFFFF" points="1293.96,287.28,1293.6523,294.4845,1300.1843,297.5395,1300.492,290.335,1293.96,287.28" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="1311.0118,330.3398,1316.5097,322.5794,1310.8983,320.8299,1311.0118,330.3398" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="155" x="1321.5" y="330.0669">expertise/skills condition</text><!--MD5=[e587ab80a3f4da1a3cb40d3dd269fa7a]
+link SupercomputerOffer to SupercomputerRentingSkillNeeded--><path codeLine="166" d="M1141.9381,295.5787 C1141.9381,295.5787 1130.39,309.6 1126.5,317 C1110.54,347.35 1138.74,373.79 1170.84,392.61 " fill="none" id="SupercomputerOffer-SupercomputerRentingSkillNeeded-1" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1182.28,398.94,1176.3384,391.0853,1177.904,396.5211,1172.4682,398.0868,1182.28,398.94" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1177.904" x2="1170.91" y1="396.5211" y2="392.65"/><polygon fill="#FFFFFF" points="1150.43,287.1,1143.3578,288.5087,1141.9381,295.5787,1149.0103,294.17,1150.43,287.1" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="1132.9273,330.3583,1133.1619,320.8507,1127.5286,322.5286,1132.9273,330.3583" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="155" x="1140.5" y="330.0669">expertise/skills condition</text><!--MD5=[901be87ef7d39ecc5f86fde132da4629]
+link SupercomputerRentingSkillNeeded to MicrosoftCertifiedSolutionsExpert--><path codeLine="146" d="M1269.7606,457.1815 C1269.7606,457.1815 1301.06,493.7 1313.5,513 C1320.5,523.87 1327.01,536.2 1332.62,547.95 " fill="none" id="SupercomputerRentingSkillNeeded-MicrosoftCertifiedSolutionsExpert" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1338.12,559.9,1337.9871,550.052,1336.0278,555.3588,1330.7211,553.3995,1338.12,559.9" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1336.0278" x2="1332.685" y1="555.3588" y2="548.095"/><polygon fill="#FFFFFF" points="1261.68,448.31,1262.7631,455.4393,1269.7606,457.1815,1268.6775,450.0522,1261.68,448.31" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="1330.3467,525.6769,1327.6131,516.5677,1322.7809,519.9141,1330.3467,525.6769" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="59" x="1336.5" y="526.0669">expertise</text><!--MD5=[901be87ef7d39ecc5f86fde132da4629]
+link SupercomputerRentingSkillNeeded to MicrosoftCertifiedSolutionsExpert--><path codeLine="168" d="M1226.5684,459.6796 C1226.5684,459.6796 1219.21,509.37 1231.5,530 C1236.38,538.18 1242.67,545.41 1249.82,551.77 " fill="none" id="SupercomputerRentingSkillNeeded-MicrosoftCertifiedSolutionsExpert-1" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1260.04,559.92,1255.499,551.1805,1256.1314,556.8019,1250.51,557.4343,1260.04,559.92" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1256.1314" x2="1249.88" y1="556.8019" y2="551.82"/><polygon fill="#FFFFFF" points="1229.68,448.09,1224.261,452.8476,1226.5684,459.6796,1231.9874,454.922,1229.68,448.09" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="1237.724,526.4143,1238.3592,516.9249,1232.6602,518.3639,1237.724,526.4143" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="59" x="1245.5" y="526.0669">expertise</text><!--MD5=[4115d36a2c7cecf55dbe091313170f12]
+link SupercomputerRequest to SupercomputerRequestDescription--><path codeLine="151" d="M1193.9319,85.1886 C1193.9319,85.1886 1011.08,182.4 948.54,215.65 " fill="none" id="SupercomputerRequest-SupercomputerRequestDescription" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="936.79,221.9,946.6144,221.2062,941.2047,219.5525,942.8584,214.1427,936.79,221.9" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="941.2047" x2="948.265" y1="219.5525" y2="215.795"/><polygon fill="#FFFFFF" points="1204.53,79.56,1197.3548,78.8416,1193.9319,85.1886,1201.1072,85.907,1204.53,79.56" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="1083.0851,154.9135,1092.4513,153.2625,1089.6921,148.0725,1083.0851,154.9135" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="77" x="1096.5" y="157.0669">described in</text><!--MD5=[585727b59878943f6ce4b7e7ca828727]
+link MicrosoftCertifiedSolutionsExpertPossession to MicrosoftCertificate--><path codeLine="183" d="M2187.5,109.22 C2187.5,109.22 2187.5,169.87 2187.5,195.45 " fill="none" id="MicrosoftCertifiedSolutionsExpertPossession-MicrosoftCertificate" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="2187.5,208.48,2191.5,199.48,2187.5,203.48,2183.5,199.48,2187.5,208.48" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="2187.5" x2="2187.5" y1="203.48" y2="195.48"/><polygon fill="#FFFFFF" points="2187.5,97.22,2183.5,103.22,2187.5,109.22,2191.5,103.22,2187.5,97.22" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="2192.5,157.5664,2195.4389,148.5213,2189.5611,148.5213,2192.5,157.5664" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="84" x="2201.5" y="157.0669">evindeced by</text><!--MD5=[838637f0665c9473b0b3b4185d222ff7]
+link MicrosoftCertifiedSolutionsExpertPossession to Marko--><path codeLine="185" d="M2117.4357,103.1432 C2117.4357,103.1432 2008.58,167.83 1961.69,195.69 " fill="none" id="MicrosoftCertifiedSolutionsExpertPossession-Marko" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1950.4,202.4,1960.1801,201.2382,1954.6976,199.8445,1956.0913,194.362,1950.4,202.4" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1954.6976" x2="1961.575" y1="199.8445" y2="195.76"/><polygon fill="#FFFFFF" points="2127.75,97.01,2120.5485,96.6385,2117.4357,103.1432,2124.6373,103.5147,2127.75,97.01" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="2049.2016,155.1206,2058.4788,153.0266,2055.4762,147.9735,2049.2016,155.1206" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="38" x="2062.5" y="157.0669">owner</text><!--MD5=[73091071ebc2eca711b6e0d8c99c0d47]
+link MicrosoftCertifiedSolutionsExpertPossession to MicrosoftCertifiedSolutionsExpert--><path codeLine="187" d="M2253.8403,104.4651 C2253.8403,104.4651 2283.29,129.76 2294.5,144 C2334.24,194.47 2350.75,233.3 2315.5,287 C2229.6,417.87 1796.05,516.12 1540.9,563.68 " fill="none" id="MicrosoftCertifiedSolutionsExpertPossession-MicrosoftCertifiedSolutionsExpert" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1527.75,566.12,1537.3265,568.4201,1532.667,565.2125,1535.8745,560.5529,1527.75,566.12" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1532.667" x2="1540.535" y1="565.2125" y2="563.75"/><polygon fill="#FFFFFF" points="2244.32,97.16,2246.6451,103.986,2253.8403,104.4651,2251.5152,97.6391,2244.32,97.16" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="2285.2965,328.2739,2294.4921,325.8467,2291.3092,320.9052,2285.2965,328.2739" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="103" x="2298.5" y="330.0669">skill or expertise</text><!--MD5=[48eb3787645c2c7448ba4007735f7cd6]
 @startuml
 
     !startsub resource
@@ -18,26 +31,85 @@ link SupercomputerOffer to SupercomputerRentingDescription--><path codeLine="71"
 
     !endsub
 
-    !startsub institutions
+    !startsub agents
 
         object "<u>Brown University:Organisation_Unit</u>" as BrownUniversity #ffffff {
-                name = "Brown University"@en ^^ Multilingual_String
-                rorId = "https://ror.org/05gq02987" ^^ ROR_ID_Type
-                websiteURL = "https://www.brown.edu/" ^^ URI
-                address = {
-                \tcity = "Providence"@en ^^ Multilingual_String
-                \tstateOrProvince = "Rhode Island"@en ^^ Multilingual_String
-                \tcountry = "USA"@en ^^ Multilingual_String
-                } ^^ Postal_Address
+            name = "Brown University"@en ^^ Multilingual_String
+            rorId = "https://ror.org/05gq02987" ^^ ROR_ID_Type
+            websiteURL = "https://www.brown.edu/" ^^ URI
+            address = {
+            \tcity = "Providence"@en ^^ Multilingual_String
+            \tstateOrProvince = "Rhode Island"@en ^^ Multilingual_String
+            \tcountry = "USA"@en ^^ Multilingual_String
+            } ^^ Postal_Address
         }
 
+        object "<u>Josiah:Person</u>" as Josiah #ffffff {
+           personName = {
+           \t firstNames = "Josiah"@en ^^ Multilingual_String
+           \t familyNames = "Carberry"@en ^^ Multilingual_String
+           } ^^ PersonName
+        }
+
+        object "<u>Josiah Brown University:Employment</u>" as JosiahBrownUniversity #ffffff {
+            dateRange = {
+            \t startDate = "1929-02-29" ^^ Date
+            \t startDateInclusive = "true" ^^ Boolean
+            } ^^ Date_Range
+            positionTitle = {
+            \t title = "Professor"@en ^^ Date
+            } ^^ Position_Title
+        }
+
+        JosiahBrownUniversity o- -> Josiah : actor >
+
+        object "<u>University of Novi Sad:Organisation_Unit</u>" as NoviSadUniversity #ffffff {
+            name = "University of Novi Sad"@en ^^ Multilingual_String
+            rorId = "https://ror.org/00xa57a59" ^^ ROR_ID_Type
+            websiteURL = "https://www.uns.ac.rs/index.php/en/" ^^ URI
+            address = {
+            \tcity = "Novi Sad"@en ^^ Multilingual_String
+            \tcountry = "Serbia"@en ^^ Multilingual_String
+            } ^^ Postal_Address
+        }
+
+        object "<u>Marko Miljekovic:Person</u>" as Marko #ffffff {
+           personName = {
+           \t firstNames = "Marko"@sr ^^ Multilingual_String
+           \t familyNames = "Miljeković"@sr ^^ Multilingual_String
+           } ^^ PersonName
+        }
+
+        object "<u>Marko University of Novi Sad:Employment</u>" as MarkoNoviSadUniversity #ffffff {
+            dateRange = {
+            \t startDate = "1931-02-29" ^^ Date
+            \t startDateInclusive = "true" ^^ Boolean
+            } ^^ Date_Range
+            positionTitle = {
+            \t title = "Professor"@en ^^ Date
+            } ^^ Position_Title
+        }
+
+        MarkoNoviSadUniversity o- -> Marko : actor >
+
+        object "<u>Affiliation Marko : Affiliation_Statement</u>" as AffiliationMarko #ffffff {
+             displayAffiliation = "University of Novi Sad, Serbia" ^^ String
+             displayPersonName = "Marko Miljeković" ^^ String
+        }
+
+        MarkoNoviSadUniversity o- -> AffiliationMarko : is the foundation for >
+
+    !endsub
+
+    !startsub resource
+
         object "<u>Supercomputer Possession:InfrastructurePossession</u>" as SupercomputerPossession #ffffff {
-                dateRange = {
-                \t startDate = "2011-02-29" ^^ Date
-                \t startDateInclusive = "true" ^^ Boolean
-                \t endDate = "2021-02-29" ^^ Date
-                \t endDateInclusive = "true" ^^ Boolean
-                } ^^ Date_Range
+            dateRange = {
+            \t startDate = "2011-02-29" ^^ Date
+            \t startDateInclusive = "true" ^^ Boolean
+            \t endDate = "2021-02-29" ^^ Date
+            \t endDateInclusive = "true" ^^ Boolean
+            } ^^ Date_Range
         }
 
         SupercomputerPossession o- -> BrownUniversity : owner >
@@ -49,30 +121,17 @@ link SupercomputerOffer to SupercomputerRentingDescription--><path codeLine="71"
     !startsub resourceOffer
 
         object "<u>Supercomputer Offer:ResourceOffer</u>" as SupercomputerOffer #ffffff {
-                dateRange = {
-                \t startDate = "2011-02-29" ^^ Date
-                \t startDateInclusive = "true" ^^ Boolean
-                \t endDate = "2021-02-29" ^^ Date
-                \t endDateInclusive = "true" ^^ Boolean
-                } ^^ Date_Range
+            dateRange = {
+            \t startDate = "2015-02-29" ^^ Date
+            \t startDateInclusive = "true" ^^ Boolean
+            \t endDate = "2019-02-29" ^^ Date
+            \t endDateInclusive = "true" ^^ Boolean
+            } ^^ Date_Range
         }
 
-        SupercomputerOffer o- -> BrownUniversity : owner >
+        SupercomputerOffer o- -> BrownUniversity : issuer >
 
         SupercomputerOffer o- -> Supercomputer : resource >
-
-        object "<u>Supercomputer Renting Skill Needed:ExpertiseAndSkillsCondition</u>" as SupercomputerRentingSkillNeeded #ffffff {
-                level = "High level of the skill is needed proved by certificate."@en ^^ Multilingual_String
-        }
-
-        SupercomputerOffer o- -> SupercomputerRentingSkillNeeded : expertise/skills condition >
-
-        object "<u>Microsoft Certified Solutions Expert:ExpertiseAndSkills</u>" as MicrosoftCertifiedSolutionsExpert #ffffff {
-                description = "Skills needed to move your company to the cloud,
-                \t increase user productivity and ..."@en ^^ Multilingual_String
-        }
-
-        SupercomputerRentingSkillNeeded o- -> MicrosoftCertifiedSolutionsExpert : expertise >
 
         object "<u>Supercomputer Renting Description:TextualDocument</u>" as SupercomputerRentingDescription #ffffff {
         }
@@ -83,7 +142,71 @@ link SupercomputerOffer to SupercomputerRentingDescription--><path codeLine="71"
 
     !startsub resourceRequest
 
+        object "<u>Supercomputer Request:ResourceRequest</u>" as SupercomputerRequest #ffffff {
+            date = "2017-02-29" ^^ Date
+        }
 
+        SupercomputerRequest o- -> Marko : applicant >
+
+        SupercomputerRequest o- -> AffiliationMarko : affiliation >
+
+        SupercomputerRequest o- -> Josiah : addressee >
+
+        SupercomputerRequest o- -> SupercomputerOffer : in response to >
+
+        object "<u>Supercomputer Renting Skill Needed:ExpertiseAndSkillsCondition</u>" as SupercomputerRentingSkillNeeded #ffffff {
+            level = "High level of the skill is needed proved by certificate."@en ^^ Multilingual_String
+        }
+
+        SupercomputerOffer o- -> SupercomputerRentingSkillNeeded : expertise/skills condition >
+
+        object "<u>Microsoft Certified Solutions Expert:ExpertiseAndSkills</u>" as MicrosoftCertifiedSolutionsExpert #ffffff {
+            description = "Skills needed to move your company to the cloud,
+            \t increase user productivity and ..."@en ^^ Multilingual_String
+        }
+
+        SupercomputerRentingSkillNeeded o- -> MicrosoftCertifiedSolutionsExpert : expertise >
+
+        object "<u>Supercomputer Request Description:TextualDocument</u>" as SupercomputerRequestDescription #ffffff {
+        }
+
+        SupercomputerRequest o- -> SupercomputerRequestDescription : described in >
+
+    !endsub
+
+    !startsub skillsExpertise
+
+        object "<u>Microsoft Certified Solutions Expert:ExpertiseAndSkills</u>" as MicrosoftCertifiedSolutionsExpert #ffffff {
+            description = "Skills needed to move your company to the cloud,
+            \t increase user productivity and ..."@en ^^ Multilingual_String
+        }
+
+        object "<u>Supercomputer Renting Skill Needed:ExpertiseAndSkillsCondition</u>" as SupercomputerRentingSkillNeeded #ffffff {
+            level = "High level of the skill is needed proved by certificate."@en ^^ Multilingual_String
+        }
+
+        SupercomputerOffer o- -> SupercomputerRentingSkillNeeded : expertise/skills condition >
+
+        SupercomputerRentingSkillNeeded o- -> MicrosoftCertifiedSolutionsExpert : expertise >
+
+        object "<u>Microsoft Certified Solutions Expert Possession:ExpertiseAndSkillsPossession</u>" as MicrosoftCertifiedSolutionsExpertPossession #ffffff {
+            dateRange = {
+            \t startDate = "2010-02-29" ^^ Date
+            \t startDateInclusive = "true" ^^ Boolean
+            } ^^ Date_Range
+        }
+
+        object "<u>Microsoft Certificate : Document</u>" as MicrosoftCertificate #00ff00 {
+            title = "Microsoft Certificate for Marko
+            \t Miljeković"@en ^^ Multilingual_String
+            publicationDate = "2010-02-29" ^^ Date
+        }
+
+        MicrosoftCertifiedSolutionsExpertPossession o- -> MicrosoftCertificate : evindeced by >
+
+        MicrosoftCertifiedSolutionsExpertPossession o- -> Marko : owner >
+
+        MicrosoftCertifiedSolutionsExpertPossession o- -> MicrosoftCertifiedSolutionsExpert : skill or expertise >
 
     !endsub
 
@@ -102,23 +225,80 @@ link SupercomputerOffer to SupercomputerRentingDescription--><path codeLine="71"
 
 
         object "<u>Brown University:Organisation_Unit</u>" as BrownUniversity #ffffff {
-                name = "Brown University"@en ^^ Multilingual_String
-                rorId = "https://ror.org/05gq02987" ^^ ROR_ID_Type
-                websiteURL = "https://www.brown.edu/" ^^ URI
-                address = {
-                \tcity = "Providence"@en ^^ Multilingual_String
-                \tstateOrProvince = "Rhode Island"@en ^^ Multilingual_String
-                \tcountry = "USA"@en ^^ Multilingual_String
-                } ^^ Postal_Address
+            name = "Brown University"@en ^^ Multilingual_String
+            rorId = "https://ror.org/05gq02987" ^^ ROR_ID_Type
+            websiteURL = "https://www.brown.edu/" ^^ URI
+            address = {
+            \tcity = "Providence"@en ^^ Multilingual_String
+            \tstateOrProvince = "Rhode Island"@en ^^ Multilingual_String
+            \tcountry = "USA"@en ^^ Multilingual_String
+            } ^^ Postal_Address
         }
 
+        object "<u>Josiah:Person</u>" as Josiah #ffffff {
+           personName = {
+           \t firstNames = "Josiah"@en ^^ Multilingual_String
+           \t familyNames = "Carberry"@en ^^ Multilingual_String
+           } ^^ PersonName
+        }
+
+        object "<u>Josiah Brown University:Employment</u>" as JosiahBrownUniversity #ffffff {
+            dateRange = {
+            \t startDate = "1929-02-29" ^^ Date
+            \t startDateInclusive = "true" ^^ Boolean
+            } ^^ Date_Range
+            positionTitle = {
+            \t title = "Professor"@en ^^ Date
+            } ^^ Position_Title
+        }
+
+        JosiahBrownUniversity o- -> Josiah : actor >
+
+        object "<u>University of Novi Sad:Organisation_Unit</u>" as NoviSadUniversity #ffffff {
+            name = "University of Novi Sad"@en ^^ Multilingual_String
+            rorId = "https://ror.org/00xa57a59" ^^ ROR_ID_Type
+            websiteURL = "https://www.uns.ac.rs/index.php/en/" ^^ URI
+            address = {
+            \tcity = "Novi Sad"@en ^^ Multilingual_String
+            \tcountry = "Serbia"@en ^^ Multilingual_String
+            } ^^ Postal_Address
+        }
+
+        object "<u>Marko Miljekovic:Person</u>" as Marko #ffffff {
+           personName = {
+           \t firstNames = "Marko"@sr ^^ Multilingual_String
+           \t familyNames = "Miljeković"@sr ^^ Multilingual_String
+           } ^^ PersonName
+        }
+
+        object "<u>Marko University of Novi Sad:Employment</u>" as MarkoNoviSadUniversity #ffffff {
+            dateRange = {
+            \t startDate = "1931-02-29" ^^ Date
+            \t startDateInclusive = "true" ^^ Boolean
+            } ^^ Date_Range
+            positionTitle = {
+            \t title = "Professor"@en ^^ Date
+            } ^^ Position_Title
+        }
+
+        MarkoNoviSadUniversity o- -> Marko : actor >
+
+        object "<u>Affiliation Marko : Affiliation_Statement</u>" as AffiliationMarko #ffffff {
+             displayAffiliation = "University of Novi Sad, Serbia" ^^ String
+             displayPersonName = "Marko Miljeković" ^^ String
+        }
+
+        MarkoNoviSadUniversity o- -> AffiliationMarko : is the foundation for >
+
+
+
         object "<u>Supercomputer Possession:InfrastructurePossession</u>" as SupercomputerPossession #ffffff {
-                dateRange = {
-                \t startDate = "2011-02-29" ^^ Date
-                \t startDateInclusive = "true" ^^ Boolean
-                \t endDate = "2021-02-29" ^^ Date
-                \t endDateInclusive = "true" ^^ Boolean
-                } ^^ Date_Range
+            dateRange = {
+            \t startDate = "2011-02-29" ^^ Date
+            \t startDateInclusive = "true" ^^ Boolean
+            \t endDate = "2021-02-29" ^^ Date
+            \t endDateInclusive = "true" ^^ Boolean
+            } ^^ Date_Range
         }
 
         SupercomputerPossession o- -> BrownUniversity : owner >
@@ -128,30 +308,17 @@ link SupercomputerOffer to SupercomputerRentingDescription--><path codeLine="71"
 
 
         object "<u>Supercomputer Offer:ResourceOffer</u>" as SupercomputerOffer #ffffff {
-                dateRange = {
-                \t startDate = "2011-02-29" ^^ Date
-                \t startDateInclusive = "true" ^^ Boolean
-                \t endDate = "2021-02-29" ^^ Date
-                \t endDateInclusive = "true" ^^ Boolean
-                } ^^ Date_Range
+            dateRange = {
+            \t startDate = "2015-02-29" ^^ Date
+            \t startDateInclusive = "true" ^^ Boolean
+            \t endDate = "2019-02-29" ^^ Date
+            \t endDateInclusive = "true" ^^ Boolean
+            } ^^ Date_Range
         }
 
-        SupercomputerOffer o- -> BrownUniversity : owner >
+        SupercomputerOffer o- -> BrownUniversity : issuer >
 
         SupercomputerOffer o- -> Supercomputer : resource >
-
-        object "<u>Supercomputer Renting Skill Needed:ExpertiseAndSkillsCondition</u>" as SupercomputerRentingSkillNeeded #ffffff {
-                level = "High level of the skill is needed proved by certificate."@en ^^ Multilingual_String
-        }
-
-        SupercomputerOffer o- -> SupercomputerRentingSkillNeeded : expertise/skills condition >
-
-        object "<u>Microsoft Certified Solutions Expert:ExpertiseAndSkills</u>" as MicrosoftCertifiedSolutionsExpert #ffffff {
-                description = "Skills needed to move your company to the cloud,
-                \t increase user productivity and ..."@en ^^ Multilingual_String
-        }
-
-        SupercomputerRentingSkillNeeded o- -> MicrosoftCertifiedSolutionsExpert : expertise >
 
         object "<u>Supercomputer Renting Description:TextualDocument</u>" as SupercomputerRentingDescription #ffffff {
         }
@@ -160,7 +327,69 @@ link SupercomputerOffer to SupercomputerRentingDescription--><path codeLine="71"
 
 
 
+        object "<u>Supercomputer Request:ResourceRequest</u>" as SupercomputerRequest #ffffff {
+            date = "2017-02-29" ^^ Date
+        }
 
+        SupercomputerRequest o- -> Marko : applicant >
+
+        SupercomputerRequest o- -> AffiliationMarko : affiliation >
+
+        SupercomputerRequest o- -> Josiah : addressee >
+
+        SupercomputerRequest o- -> SupercomputerOffer : in response to >
+
+        object "<u>Supercomputer Renting Skill Needed:ExpertiseAndSkillsCondition</u>" as SupercomputerRentingSkillNeeded #ffffff {
+            level = "High level of the skill is needed proved by certificate."@en ^^ Multilingual_String
+        }
+
+        SupercomputerOffer o- -> SupercomputerRentingSkillNeeded : expertise/skills condition >
+
+        object "<u>Microsoft Certified Solutions Expert:ExpertiseAndSkills</u>" as MicrosoftCertifiedSolutionsExpert #ffffff {
+            description = "Skills needed to move your company to the cloud,
+            \t increase user productivity and ..."@en ^^ Multilingual_String
+        }
+
+        SupercomputerRentingSkillNeeded o- -> MicrosoftCertifiedSolutionsExpert : expertise >
+
+        object "<u>Supercomputer Request Description:TextualDocument</u>" as SupercomputerRequestDescription #ffffff {
+        }
+
+        SupercomputerRequest o- -> SupercomputerRequestDescription : described in >
+
+
+
+        object "<u>Microsoft Certified Solutions Expert:ExpertiseAndSkills</u>" as MicrosoftCertifiedSolutionsExpert #ffffff {
+            description = "Skills needed to move your company to the cloud,
+            \t increase user productivity and ..."@en ^^ Multilingual_String
+        }
+
+        object "<u>Supercomputer Renting Skill Needed:ExpertiseAndSkillsCondition</u>" as SupercomputerRentingSkillNeeded #ffffff {
+            level = "High level of the skill is needed proved by certificate."@en ^^ Multilingual_String
+        }
+
+        SupercomputerOffer o- -> SupercomputerRentingSkillNeeded : expertise/skills condition >
+
+        SupercomputerRentingSkillNeeded o- -> MicrosoftCertifiedSolutionsExpert : expertise >
+
+        object "<u>Microsoft Certified Solutions Expert Possession:ExpertiseAndSkillsPossession</u>" as MicrosoftCertifiedSolutionsExpertPossession #ffffff {
+            dateRange = {
+            \t startDate = "2010-02-29" ^^ Date
+            \t startDateInclusive = "true" ^^ Boolean
+            } ^^ Date_Range
+        }
+
+        object "<u>Microsoft Certificate : Document</u>" as MicrosoftCertificate #00ff00 {
+            title = "Microsoft Certificate for Marko
+            \t Miljeković"@en ^^ Multilingual_String
+            publicationDate = "2010-02-29" ^^ Date
+        }
+
+        MicrosoftCertifiedSolutionsExpertPossession o- -> MicrosoftCertificate : evindeced by >
+
+        MicrosoftCertifiedSolutionsExpertPossession o- -> Marko : owner >
+
+        MicrosoftCertifiedSolutionsExpertPossession o- -> MicrosoftCertifiedSolutionsExpert : skill or expertise >
 
 
 
