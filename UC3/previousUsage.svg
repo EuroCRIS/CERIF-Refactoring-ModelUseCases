@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="724px" preserveAspectRatio="none" style="width:3109px;height:724px;background:#FFFFFF;" version="1.1" viewBox="0 0 3109 724" width="3109px" zoomAndPan="magnify"><defs><filter height="300%" id="f9cq3lw7tuvdg" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#00FFFF" filter="url(#f9cq3lw7tuvdg)" height="60.8906" style="stroke:#A80036;stroke-width:1.5;" width="290" x="1109" y="650"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="195" x="1156.5" y="663.1387">Supercomputer : Infrastructure</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1110" x2="1398" y1="667.9688" y2="667.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="278" x="1115" y="681.251">description = "Supercomputer which can be used for high</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="233" x="1142" y="692.8916">performance computing. Characteristics are the</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="197" x="1142" y="704.5322">following: ... "@en ^^ Multilingual_String</text><rect fill="#FFFFFF" filter="url(#f9cq3lw7tuvdg)" height="235.5" style="stroke:#A80036;stroke-width:1.5;" width="447" x="1327.5" y="191"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="93" x="1504.5" y="204.1387">Josiah : Person</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1328.5" x2="1773.5" y1="208.9688" y2="208.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="83" x="1333.5" y="222.251">personName = {</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="238" x="1360.5" y="233.8916">firstNames = "Josiah"@en ^^ Multilingual_String</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="265" x="1360.5" y="245.5322">familyNames = "Carberry"@en ^^ Multilingual_String</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="92" x="1333.5" y="257.1729">} ^^ PersonName</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="302" x="1333.5" y="268.8135">description = "Josiah Stinkney Carberry is a fictional professor,</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="335" x="1360.5" y="280.4541">created as a joke in 1929. He is said to still teach at Brown University,</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="354" x="1360.5" y="292.0947">and to be known for his work in "psychoceramics", the supposed study of</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="408" x="1360.5" y="303.7354">"cracked pots". See his Wikipedia entry for more details."@en ^^ Multilingual_String</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="410" x="1333.5" y="315.376">keywords = ["psychoceramics"@en "ionian philology"@en] List&lt;Multilingual_String&gt;</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="318" x="1333.5" y="327.0166">orcid_id = "https://orcid.org/0000-0002-1825-0097" ^^ ORCID_iD</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="288" x="1333.5" y="338.6572">scopus_author_id = "7007156898" ^^ SCOPUS_Author_ID</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="312" x="1333.5" y="350.2979">websiteURL = "http://library.brown.edu/about/hay/carberry.php"</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="60" x="1333.5" y="361.9385">otherIDs = [</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="6" x="1408.5" y="373.5791">{</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="252" x="1432.5" y="385.2197">label = "Wikipedia Entry"@en ^^ Multilingual_String</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="307" x="1432.5" y="396.8604">value = "http://en.wikipedia.org/wiki/Josiah_Carberry" ^^ String</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="6" x="1405.5" y="408.501">}</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="70" x="1381.5" y="420.1416">] ^^ List&lt;ID&gt;</text><rect fill="#FFFFFF" filter="url(#f9cq3lw7tuvdg)" height="119.0938" style="stroke:#A80036;stroke-width:1.5;" width="333" x="501.5" y="249"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="225" x="555.5" y="262.1387">Brown University : Organisation_Unit</text><line style="stroke:#A80036;stroke-width:1.5;" x1="502.5" x2="833.5" y1="266.9688" y2="266.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="267" x="507.5" y="280.251">name = "Brown University"@en ^^ Multilingual_String</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="259" x="507.5" y="291.8916">rorId = "https://ror.org/05gq02987" ^^ ROR_ID_Type</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="237" x="507.5" y="303.5322">websiteURL = "https://www.brown.edu/" ^^ URI</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="58" x="507.5" y="315.1729">address = {</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="227" x="531.5" y="326.8135">city = "Providence"@en ^^ Multilingual_String</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="297" x="531.5" y="338.4541">stateOrProvince = "Rhode Island"@en ^^ Multilingual_String</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="215" x="531.5" y="350.0947">country = "USA"@en ^^ Multilingual_String</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="102" x="507.5" y="361.7354">} ^^ Postal_Address</text><rect fill="#FFFFFF" filter="url(#f9cq3lw7tuvdg)" height="107.4531" style="stroke:#A80036;stroke-width:1.5;" width="245" x="958.5" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="231" x="965.5" y="20.1387">Josiah Brown University : Employment</text><line style="stroke:#A80036;stroke-width:1.5;" x1="959.5" x2="1202.5" y1="24.9688" y2="24.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="73" x="964.5" y="38.251">dateRange = {</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="173" x="991.5" y="49.8916">startDate = "1929-02-29" ^^ Date</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="193" x="991.5" y="61.5322">startDateInclusive = "true" ^^ Boolean</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="88" x="964.5" y="73.1729">} ^^ Date_Range</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="76" x="964.5" y="84.8135">positionTitle = {</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="158" x="991.5" y="96.4541">title = "Professor"@en ^^ Date</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="90" x="964.5" y="108.0947">} ^^ Position_Title</text><rect fill="#00FF00" filter="url(#f9cq3lw7tuvdg)" height="33.9688" style="stroke:#A80036;stroke-width:1.5;" width="494" x="1989" y="531.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="480" x="1996" y="544.6387">Restricted Access: Restricted_Access_COAR_Accessibility_Specification_v_1_0</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1990" x2="2482" y1="549.4688" y2="549.4688"/><rect fill="#00FF00" filter="url(#f9cq3lw7tuvdg)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="367" x="2518.5" y="524"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="111" x="2646.5" y="537.1387">IEEE_TPS : Journal</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2519.5" x2="2884.5" y1="541.9688" y2="541.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="355" x="2524.5" y="555.251">title = "IEEE Transactions on Plasma Science"@en ^^ Multilingual_String</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="141" x="2524.5" y="566.8916">issn = "1939-9375" ^^ ISSN</text><rect fill="#00FF00" filter="url(#f9cq3lw7tuvdg)" height="119.0938" style="stroke:#A80036;stroke-width:1.5;" width="322" x="2316" y="249"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="273" x="2340.5" y="262.1387">10.1109/TPS.1987.4316723 : Journal Article</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2317" x2="2637" y1="266.9688" y2="266.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="245" x="2322" y="280.251">DOI = "10.1109/TPS.1987.4316723" ^^ DOI_Type</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="177" x="2322" y="291.8916">title = "Bulk and surface plasmons in</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="283" x="2349" y="303.5322">artificially structured materials"@en ^^ Multilingual_String</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="159" x="2322" y="315.1729">publicationDate = 1987 ^^ Date</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="90" x="2322" y="326.8135">startPage = "394"</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="85" x="2322" y="338.4541">endPage = "410"</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="72" x="2322" y="350.0947">volume = "15"</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="68" x="2322" y="361.7354">number = "4"</text><rect fill="#FFFFFF" filter="url(#f9cq3lw7tuvdg)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="222" x="1774" y="41.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="208" x="1781" y="54.6387">Josiah Article101109 : Authorship</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1775" x2="1995" y1="59.4688" y2="59.4688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="209" x="1780" y="72.751">correspondingAuthor = "false" ^^ Boolean</text><rect fill="#FFFFFF" filter="url(#f9cq3lw7tuvdg)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="422" x="870" y="284"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="239" x="961.5" y="297.1387">Affiliation Josiah : Affiliation_Statement</text><line style="stroke:#A80036;stroke-width:1.5;" x1="871" x2="1291" y1="301.9688" y2="301.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="410" x="876" y="315.251">displayAffiliation = "Brown University of Providence, Providence, RI, USA" ^^ String</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="260" x="876" y="326.8916">displayPersonName = "Josiah S. Carberry" ^^ String</text><rect fill="#FFFFFF" filter="url(#f9cq3lw7tuvdg)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="218" x="2673" y="41.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="198" x="2683" y="54.6387">John Article101109 : Authorship</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2674" x2="2890" y1="59.4688" y2="59.4688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="206" x="2679" y="72.751">correspondingAuthor = "true" ^^ Boolean</text><rect fill="#FFFFFF" filter="url(#f9cq3lw7tuvdg)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="422" x="2673" y="284"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="320" x="2724" y="297.1387">Affiliation John Article101109 : Affiliation_Statement</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2674" x2="3094" y1="301.9688" y2="301.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="410" x="2679" y="315.251">displayAffiliation = "Brown University of Providence, Providence, RI, USA" ^^ String</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="233" x="2679" y="326.8916">displayPersonName = "John J. Quinn" ^^ String</text><rect fill="#FFFFFF" filter="url(#f9cq3lw7tuvdg)" height="119.0938" style="stroke:#A80036;stroke-width:1.5;" width="388" x="7" y="249"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="84" x="159" y="262.1387">INSP : Project</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="394" y1="266.9688" y2="266.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="376" x="13" y="280.251">name = "Investigation of novel surface plasmons"@en ^^ Multilingual_String</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="143" x="13" y="291.8916">acronym = "INSP" ^^ String</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="73" x="13" y="303.5322">dateRange = {</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="173" x="40" y="315.1729">startDate = "1985-02-29" ^^ Date</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="193" x="40" y="326.8135">startDateInclusive = "true" ^^ Boolean</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="168" x="40" y="338.4541">endDate = "1989-02-29" ^^ Date</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="188" x="40" y="350.0947">endDateInclusive = "true" ^^ Boolean</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="88" x="13" y="361.7354">} ^^ Date_Range</text><rect fill="#00FF00" filter="url(#f9cq3lw7tuvdg)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="471" x="1809.5" y="284"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="457" x="1816.5" y="297.1387">Josiah Contribution Statement to Article : CRediT_Contribution_Statement</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1810.5" x2="2279.5" y1="301.9688" y2="301.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="269" x="1815.5" y="315.251">roleType = Writing - original draft ^^ CRediT_Role_Type</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="321" x="1815.5" y="326.8916">degreeOfContribution = Lead ^^ CRediT_Degree_of_Contribution</text><rect fill="#FFFFFF" filter="url(#f9cq3lw7tuvdg)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="477" x="1389.5" y="529.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="446" x="1405" y="542.6387">Josiah Resource Usage Statement Article : Resource_Usage_Statement</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1390.5" x2="1865.5" y1="547.4688" y2="547.4688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="465" x="1395.5" y="560.751">statement = "Part of his work Josian did by using a Supercomputer."@en ^^ Multilingual_String</text><rect fill="#FFFFFF" filter="url(#f9cq3lw7tuvdg)" height="95.8125" style="stroke:#A80036;stroke-width:1.5;" width="420" x="238" y="12.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="406" x="245" y="25.6387">Brown University Contribution to Project : Contribution_to_Project</text><line style="stroke:#A80036;stroke-width:1.5;" x1="239" x2="657" y1="30.4688" y2="30.4688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="73" x="244" y="43.751">dateRange = {</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="173" x="271" y="55.3916">startDate = "1985-02-29" ^^ Date</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="193" x="271" y="67.0322">startDateInclusive = "true" ^^ Boolean</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="168" x="271" y="78.6729">endDate = "1989-02-29" ^^ Date</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="188" x="271" y="90.3135">endDateInclusive = "true" ^^ Boolean</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="88" x="244" y="101.9541">} ^^ Date_Range</text><rect fill="#FFFFFF" filter="url(#f9cq3lw7tuvdg)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="595" x="499.5" y="456"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="461" x="566.5" y="469.1387">BrownUniversityContributionStatementToProject : Contribution_Statement</text><line style="stroke:#A80036;stroke-width:1.5;" x1="500.5" x2="1093.5" y1="473.9688" y2="473.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="583" x="505.5" y="487.251">statement = "Brown University provided an its own Supercomputer for needs of the project"@en ^^ Multilingual_String</text><!--MD5=[eb91e32861d1bbbfc745c68b84b88b73]
+link JosiahBrownUniversity to Josiah--><path codeLine="64" d="M1192.171,119.6861 C1192.171,119.6861 1273.7,162.36 1316.85,184.94 " fill="none" id="JosiahBrownUniversity-Josiah" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1328.41,190.99,1322.2921,183.2717,1323.9804,188.6708,1318.5814,190.3591,1328.41,190.99" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1323.9804" x2="1316.89" y1="188.6708" y2="184.97"/><polygon fill="#FFFFFF" points="1181.54,114.12,1185.0001,120.4467,1192.171,119.6861,1188.7109,113.3594,1181.54,114.12" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="1270.4299,154.8849,1263.7789,148.0868,1261.0533,153.2945,1270.4299,154.8849" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="33" x="1275" y="157.0669">actor</text><!--MD5=[1027584f5b7296d454820cdd2ffb1eaf]
+link JosiahBrownUniversity to BrownUniversity--><path codeLine="66" d="M975.222,119.8769 C975.222,119.8769 891.42,167.4 852,191 C825.18,207.06 796.49,224.9 769.93,241.7 " fill="none" id="JosiahBrownUniversity-BrownUniversity" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="758.69,248.82,768.4328,247.3784,762.9126,246.1424,764.1486,240.6222,758.69,248.82" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="762.9126" x2="769.675" y1="246.1424" y2="241.86"/><polygon fill="#FFFFFF" points="985.69,114.01,978.5004,113.4541,975.222,119.8769,982.4116,120.4328,985.69,114.01" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="927.7001,155.118,936.9785,153.0295,933.9789,147.9747,927.7001,155.118" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="67" x="941" y="157.0669">involved in</text><!--MD5=[32de1dba26543d0c35f9f281f33f3459]
+link Article101109 to IEEE_TPS--><path codeLine="90" d="M2540.5679,376.7556 C2540.5679,376.7556 2636.96,478.7 2670.28,513.95 " fill="none" id="Article101109-IEEE_TPS" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="2679.54,523.74,2676.2631,514.4523,2676.1048,520.1069,2670.4501,519.9486,2679.54,523.74" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="2676.1048" x2="2670.605" y1="520.1069" y2="514.295"/><polygon fill="#FFFFFF" points="2532.33,368.03,2533.5404,375.1388,2540.5679,376.7556,2539.3575,369.6468,2532.33,368.03" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="2655.4351,478.6996,2651.3565,470.108,2647.0854,474.1462,2655.4351,478.6996" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="43" x="2661" y="479.5669">source</text><!--MD5=[a466ba9104b9fc5f5f3175ce600adda3]
+link Article101109 to RestrictedAccess--><path codeLine="92" d="M2409.1956,376.4557 C2409.1956,376.4557 2296.29,487.96 2261.65,522.17 " fill="none" id="Article101109-RestrictedAccess" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="2252.27,531.44,2261.4869,527.9688,2255.8302,527.9293,2255.8697,522.2726,2252.27,531.44" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="2255.8302" x2="2261.515" y1="527.9293" y2="522.3"/><polygon fill="#FFFFFF" points="2417.74,368.03,2410.6592,369.3947,2409.1956,376.4557,2416.2764,375.091,2417.74,368.03" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="2329.4425,478.5798,2337.9432,474.3151,2333.813,470.1329,2329.4425,478.5798" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="83" x="2342" y="479.5669">accessRights</text><!--MD5=[de06960d0203649f3cb58cd3e3e7ffed]
+link JosiahArticle101109 to AffiliationJosiah--><path codeLine="107" d="M1761.9543,80.0692 C1761.9543,80.0692 1460.89,136.59 1310,191 C1245.73,214.17 1176.39,251.32 1131.05,277.43 " fill="none" id="JosiahArticle101109-AffiliationJosiah" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1119.78,283.98,1129.5716,282.9196,1124.1039,281.4692,1125.5543,276.0014,1119.78,283.98" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1124.1039" x2="1131.025" y1="281.4692" y2="277.445"/><polygon fill="#FFFFFF" points="1773.79,78.09,1767.2124,75.1344,1761.9543,80.0692,1768.5319,83.0248,1773.79,78.09" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="1449.228,154.0592,1458.738,154.1636,1456.9832,148.5538,1449.228,154.0592" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="57" x="1463" y="157.0669">affiliation</text><!--MD5=[13f59df408f469bb7f499723336ebd8b]
+link JosiahBrownUniversity to AffiliationJosiah--><path codeLine="109" d="M1081,126.27 C1081,126.27 1081,232.95 1081,270.74 " fill="none" id="JosiahBrownUniversity-AffiliationJosiah" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1081,283.84,1085,274.84,1081,278.84,1077,274.84,1081,283.84" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1081" x2="1081" y1="278.84" y2="270.84"/><polygon fill="#FFFFFF" points="1081,114.27,1077,120.27,1081,126.27,1085,120.27,1081,114.27" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="1086,157.5664,1088.9389,148.5213,1083.0611,148.5213,1086,157.5664" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="128" x="1095" y="157.0669">is the foundation for</text><!--MD5=[a562286586318802c85c422c36784ed2]
+link JosiahArticle101109 to Josiah--><path codeLine="111" d="M1850.7787,86.7075 C1850.7787,86.7075 1769.12,146.85 1719.96,183.06 " fill="none" id="JosiahArticle101109-Josiah" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1709.47,190.78,1719.0904,188.6708,1713.4982,187.8179,1714.3511,182.2258,1709.47,190.78" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1713.4982" x2="1719.935" y1="187.8179" y2="183.075"/><polygon fill="#FFFFFF" points="1860.44,79.59,1853.2368,79.9283,1850.7787,86.7075,1857.9818,86.3692,1860.44,79.59" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="1768.9741,155.5316,1777.9999,152.5339,1774.5141,147.8012,1768.9741,155.5316" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="33" x="1782" y="157.0669">actor</text><!--MD5=[d26c5aa379f19fcdf13a6ebe9597fd49]
+link JosiahArticle101109 to Article101109--><path codeLine="113" d="M1976.3071,82.4787 C1976.3071,82.4787 2192.45,141.26 2298,191 C2327.92,205.1 2358.73,223.52 2386.16,241.54 " fill="none" id="JosiahArticle101109-Article101109" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="2397.3,248.95,2392.0202,240.6359,2393.1364,246.1816,2387.5907,247.2977,2397.3,248.95" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="2393.1364" x2="2386.48" y1="246.1816" y2="241.75"/><polygon fill="#FFFFFF" points="1964.66,79.59,1969.5207,84.9167,1976.3071,82.4787,1971.4465,77.152,1964.66,79.59" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="2231.6613,154.3754,2224.2923,148.3631,2222.1656,153.8427,2231.6613,154.3754" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="65" x="2236" y="157.0669">document</text><!--MD5=[3e9b2be926328cfcaa180b811edbe38a]
+link JohnArticle101109 to AffiliationJohnArticle101109--><path codeLine="124" d="M2794.1041,90.6716 C2794.1041,90.6716 2848.98,223.04 2869.13,271.65 " fill="none" id="JohnArticle101109-AffiliationJohnArticle101109" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="2874.14,283.73,2874.3949,273.8844,2872.2282,279.1099,2867.0028,276.9433,2874.14,283.73" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="2872.2282" x2="2869.165" y1="279.1099" y2="271.72"/><polygon fill="#FFFFFF" points="2789.5,79.59,2788.1082,86.6655,2794.1041,90.6716,2795.4959,83.5961,2789.5,79.59" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="2826.9148,157.1852,2826.1658,147.7042,2820.736,149.9552,2826.9148,157.1852" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="57" x="2834" y="157.0669">affiliation</text><!--MD5=[7353dcf0de18f6b4f725150f1a366e47]
+link JohnArticle101109 to Article101109--><path codeLine="126" d="M2750.2293,87.1233 C2750.2293,87.1233 2622.36,190.26 2559.99,240.56 " fill="none" id="JohnArticle101109-Article101109" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="2549.77,248.81,2559.2867,246.2736,2553.662,245.6711,2554.2645,240.0465,2549.77,248.81" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="2553.662" x2="2559.885" y1="245.6711" y2="240.65"/><polygon fill="#FFFFFF" points="2759.57,79.59,2752.3885,80.2431,2750.2293,87.1233,2757.4107,86.4702,2759.57,79.59" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="2675.1081,155.7054,2683.9937,152.3145,2680.3036,147.7393,2675.1081,155.7054" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="65" x="2688" y="157.0669">document</text><!--MD5=[55709dbb27c63bb65a7044ec6539bc8d]
+link JosiahContributionStatementToArticle to JosiahResourceUsageStatementArticle--><path codeLine="157" d="M1993.0654,339.1337 C1993.0654,339.1337 1748.33,478.82 1671.31,522.78 " fill="none" id="JosiahContributionStatementToArticle-JosiahResourceUsageStatementArticle" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1659.69,529.41,1669.4891,528.4217,1664.0322,526.9311,1665.5229,521.4742,1659.69,529.41" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1664.0322" x2="1670.975" y1="526.9311" y2="522.97"/><polygon fill="#FFFFFF" points="2003.49,333.19,1996.2965,332.687,1993.0654,339.1337,2000.2589,339.6367,2003.49,333.19" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="1787.6575,477.5449,1796.97,475.6137,1794.0563,470.5088,1787.6575,477.5449" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="170" x="1801" y="479.5669">resource usage statement</text><!--MD5=[36d601ac7849eb226409d521b315fae9]
+link JosiahResourceUsageStatementArticle to Supercomputer--><path codeLine="159" d="M1564.6669,571.5248 C1564.6669,571.5248 1418.5,622.32 1351.63,645.56 " fill="none" id="JosiahResourceUsageStatementArticle-Supercomputer" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1338.96,649.97,1348.7736,650.8028,1343.6844,648.3329,1346.1543,643.2438,1338.96,649.97" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1343.6844" x2="1351.24" y1="648.3329" y2="645.7"/><polygon fill="#FFFFFF" points="1576,567.58,1569.0185,565.7747,1564.6669,571.5248,1571.6484,573.3301,1576,567.58" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="1464.2771,613.2077,1473.7857,613.0146,1471.8562,607.4625,1464.2771,613.2077" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="56" x="1478" y="616.0669">resource</text><!--MD5=[a8d2f567c5d8678251432faf868e7e3c]
+link JosiahArticle101109 to JosiahContributionStatementToArticle--><path codeLine="161" d="M1903.3103,89.651 C1903.3103,89.651 1990.75,224.09 2022.44,272.81 " fill="none" id="JosiahArticle101109-JosiahContributionStatementToArticle" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="2029.54,283.73,2027.9884,274.0041,2026.8149,279.5379,2021.2811,278.3643,2029.54,283.73" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="2026.8149" x2="2022.455" y1="279.5379" y2="272.83"/><polygon fill="#FFFFFF" points="1896.77,79.59,1896.6865,86.8006,1903.3103,89.651,1903.3938,82.4404,1896.77,79.59" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="1953.7262,156.7578,1951.2581,147.5731,1946.3308,150.7779,1953.7262,156.7578" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="147" x="1960" y="157.0669">contribution statement</text><!--MD5=[5a8c3306ac3c5786dc9cb4b05bfcca98]
+link BrownUniversityContributionToProject to BrownUniversity--><path codeLine="176" d="M585.6987,115.2403 C585.6987,115.2403 608.94,133.41 618,144 C639.95,169.65 652.27,204.79 659.18,235.92 " fill="none" id="BrownUniversityContributionToProject-BrownUniversity" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="661.82,248.97,663.9607,239.3566,660.831,244.0688,656.1188,240.9391,661.82,248.97" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="660.831" x2="659.24" y1="244.0688" y2="236.23"/><polygon fill="#FFFFFF" points="575.71,108.59,578.4876,115.2447,585.6987,115.2403,582.9211,108.5856,575.71,108.59" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="636.6004,156.837,634.4065,147.583,629.3861,150.6399,636.6004,156.837" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="12" x="643" y="157.0669">of</text><!--MD5=[1c904f5c764fc9858b13f17bd6823f64]
+link BrownUniversityContributionToProject to INSP--><path codeLine="178" d="M392.165,117.1055 C392.165,117.1055 307.69,201.24 269.46,239.31 " fill="none" id="BrownUniversityContributionToProject-INSP" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="259.95,248.79,269.1506,245.2759,263.4938,245.2627,263.507,239.6059,259.95,248.79" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="263.4938" x2="269.16" y1="245.2627" y2="239.615"/><polygon fill="#FFFFFF" points="400.67,108.64,393.5957,110.0377,392.165,117.1055,399.2393,115.7078,400.67,108.64" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="363.4572,156.0947,371.94,151.7943,367.7923,147.6296,363.4572,156.0947" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="13" x="376" y="157.0669">to</text><!--MD5=[5cec5663bb9cb9ac303ec11d914c26cb]
+link BrownUniversityContributionToProject to BrownUniversityContributionStatementToProject--><path codeLine="188" d="M433.779,120.5754 C433.779,120.5754 405.25,345.89 484,426 C495.41,437.61 518.3,446.42 546.75,453.1 " fill="none" id="BrownUniversityContributionToProject-BrownUniversityContributionStatementToProject" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="559.72,455.93,551.7798,450.1031,554.835,454.864,550.0741,457.9192,559.72,455.93" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="554.835" x2="547.02" y1="454.864" y2="453.155"/><polygon fill="#FFFFFF" points="436.14,108.81,431.0377,113.9057,433.779,120.5754,438.8813,115.4797,436.14,108.81" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="436.6084,157.3006,436.4815,147.7909,430.9161,149.6817,436.6084,157.3006" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="147" x="444" y="157.0669">contribution statement</text><!--MD5=[6f8dee4874d9f9a72e390a9eab45f141]
+link BrownUniversityContributionStatementToProject to Supercomputer--><path codeLine="190" d="M848.5225,498.941 C848.5225,498.941 1082.63,603.19 1175.78,644.67 " fill="none" id="BrownUniversityContributionStatementToProject-Supercomputer" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1187.68,649.97,1181.0851,642.6551,1183.1123,647.9362,1177.8311,649.9634,1187.68,649.97" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1183.1123" x2="1175.8" y1="647.9362" y2="644.675"/><polygon fill="#FFFFFF" points="837.56,494.06,841.4142,500.1547,848.5225,498.941,844.6682,492.8463,837.56,494.06" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="1015.5676,550.6004,1008.5003,544.2361,1006.1092,549.6057,1015.5676,550.6004" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="54" x="1020" y="553.0669">provides</text><!--MD5=[7177d85b43dc7e8631670de41b71a53e]
+@startuml
+
+    !startsub resource
+
+        object "<u>Supercomputer : Infrastructure</u>" as Supercomputer #00ffff {
+                 description = "Supercomputer which can be used for high
+                 \t performance computing. Characteristics are the
+                 \t following: ... "@en ^^ Multilingual_String
+        }
+
+    !endsub
+
+    !startsub persons
+
+        object "<u>Josiah : Person</u>" as Josiah #ffffff {
+           personName = {
+           \t firstNames = "Josiah"@en ^^ Multilingual_String
+           \t familyNames = "Carberry"@en ^^ Multilingual_String
+           } ^^ PersonName
+           description = "Josiah Stinkney Carberry is a fictional professor,
+           \t created as a joke in 1929. He is said to still teach at Brown University,
+           \t and to be known for his work in "psychoceramics", the supposed study of
+           \t "cracked pots". See his Wikipedia entry for more details."@en ^^ Multilingual_String
+           keywords = ["psychoceramics"@en "ionian philology"@en] List<Multilingual_String>
+           orcid_id = "https://orcid.org/0000-0002-1825-0097" ^^ ORCID_iD
+           scopus_author_id = "7007156898" ^^ SCOPUS_Author_ID
+           websiteURL = "http://library.brown.edu/about/hay/carberry.php"
+           otherIDs = [
+           \t\t\t {
+           \t\t\t\t label = "Wikipedia Entry"@en ^^ Multilingual_String
+           \t\t\t\t value = "http://en.wikipedia.org/wiki/Josiah_Carberry" ^^ String
+           \t\t\t}
+           \t\t] ^^ List<ID>
+        }
+
+    !endsub
+
+    !startsub institutions
+
+        object "<u>Brown University : Organisation_Unit</u>" as BrownUniversity #ffffff {
+            name = "Brown University"@en ^^ Multilingual_String
+            rorId = "https://ror.org/05gq02987" ^^ ROR_ID_Type
+            websiteURL = "https://www.brown.edu/" ^^ URI
+            address = {
+            \tcity = "Providence"@en ^^ Multilingual_String
+            \tstateOrProvince = "Rhode Island"@en ^^ Multilingual_String
+            \tcountry = "USA"@en ^^ Multilingual_String
+            } ^^ Postal_Address
+        }
+
+    !endsub
+
+    !startsub employments
+
+        object "<u>Josiah Brown University : Employment</u>" as JosiahBrownUniversity #ffffff {
+            dateRange = {
+            \t startDate = "1929-02-29" ^^ Date
+            \t startDateInclusive = "true" ^^ Boolean
+            } ^^ Date_Range
+            positionTitle = {
+            \t title = "Professor"@en ^^ Date
+            } ^^ Position_Title
+        }
+
+        JosiahBrownUniversity o- -> Josiah : actor >
+
+        JosiahBrownUniversity o- -> BrownUniversity : involved in >
+
+    !endsub
+
+    !startsub articles
+
+        object "<u>Restricted Access: Restricted_Access_COAR_Accessibility_Specification_v_1_0</u>" as RestrictedAccess #00ff00
+
+        object "<u>IEEE_TPS : Journal</u>" as IEEE_TPS #00ff00 {
+            title = "IEEE Transactions on Plasma Science"@en ^^ Multilingual_String
+            issn = "1939-9375" ^^ ISSN
+        }
+
+        object "<u>10.1109/TPS.1987.4316723 : Journal Article</u>" as Article101109 #00ff00 {
+            DOI = "10.1109/TPS.1987.4316723" ^^ DOI_Type
+            title = "Bulk and surface plasmons in
+            \t artificially structured materials"@en ^^ Multilingual_String
+            publicationDate = 1987 ^^ Date
+            startPage = "394"
+            endPage = "410"
+            volume = "15"
+            number = "4"
+        }
+
+        Article101109 o- -> IEEE_TPS : source >
+
+        Article101109 o- -> RestrictedAccess : accessRights >
+
+    !endsub
+
+    !startsub authorships
+
+         object "<u>Josiah Article101109 : Authorship</u>" as JosiahArticle101109 #ffffff {
+             correspondingAuthor = "false" ^^ Boolean
+         }
+
+         object "<u>Affiliation Josiah : Affiliation_Statement</u>" as AffiliationJosiah #ffffff {
+             displayAffiliation = "Brown University of Providence, Providence, RI, USA" ^^ String
+             displayPersonName = "Josiah S. Carberry" ^^ String
+         }
+
+         JosiahArticle101109 o- -> AffiliationJosiah : affiliation >
+
+         JosiahBrownUniversity o- -> AffiliationJosiah : is the foundation for >
+
+         JosiahArticle101109 o- -> Josiah : actor >
+
+         JosiahArticle101109 o- -> Article101109 : document >
+
+         object "<u>John Article101109 : Authorship</u>" as JohnArticle101109 #ffffff {
+              correspondingAuthor = "true" ^^ Boolean
+         }
+
+         object "<u>Affiliation John Article101109 : Affiliation_Statement</u>" as AffiliationJohnArticle101109 #ffffff {
+              displayAffiliation = "Brown University of Providence, Providence, RI, USA" ^^ String
+              displayPersonName = "John J. Quinn" ^^ String
+         }
+
+         JohnArticle101109 o- -> AffiliationJohnArticle101109 : affiliation >
+
+         JohnArticle101109 o- -> Article101109 : document >
+
+
+    !endsub
+
+    !startsub project
+
+        object "<u>INSP : Project</u>" as INSP #ffffff {
+             name = "Investigation of novel surface plasmons"@en ^^ Multilingual_String
+             acronym = "INSP" ^^ String
+             dateRange = {
+             \t startDate = "1985-02-29" ^^ Date
+             \t startDateInclusive = "true" ^^ Boolean
+             \t endDate = "1989-02-29" ^^ Date
+             \t endDateInclusive = "true" ^^ Boolean
+             } ^^ Date_Range
+        }
+
+    !endsub
+
+    !startsub contributionStatementToArticle
+
+        object "<u>Josiah Contribution Statement to Article : CRediT_Contribution_Statement</u>" as JosiahContributionStatementToArticle #00ff00 {
+             roleType = Writing - original draft ^^ CRediT_Role_Type
+             degreeOfContribution = Lead ^^ CRediT_Degree_of_Contribution
+        }
+
+        object "<u>Josiah Resource Usage Statement Article : Resource_Usage_Statement</u>" as JosiahResourceUsageStatementArticle #ffffff {
+            statement = "Part of his work Josian did by using a Supercomputer."@en ^^ Multilingual_String
+        }
+
+        JosiahContributionStatementToArticle o- -> JosiahResourceUsageStatementArticle : resource usage statement >
+
+        JosiahResourceUsageStatementArticle o- -> Supercomputer : resource >
+
+        JosiahArticle101109 o- -> JosiahContributionStatementToArticle : contribution statement >
+
+    !endsub
+
+    !startsub contributionToProject
+
+        object "<u>Brown University Contribution to Project : Contribution_to_Project</u>" as BrownUniversityContributionToProject #ffffff {
+             dateRange = {
+               \t startDate = "1985-02-29" ^^ Date
+               \t startDateInclusive = "true" ^^ Boolean
+               \t endDate = "1989-02-29" ^^ Date
+               \t endDateInclusive = "true" ^^ Boolean
+             } ^^ Date_Range
+        }
+
+        BrownUniversityContributionToProject o- -> BrownUniversity : of >
+
+        BrownUniversityContributionToProject o- -> INSP : to >
+
+    !endsub
+
+    !startsub contributionStatementToProject
+
+        object "<u>BrownUniversityContributionStatementToProject : Contribution_Statement</u>" as BrownUniversityContributionStatementToProject #ffffff {
+             statement = "Brown University provided an its own Supercomputer for needs of the project"@en ^^ Multilingual_String
+        }
+
+        BrownUniversityContributionToProject o- -> BrownUniversityContributionStatementToProject : contribution statement >
+
+        BrownUniversityContributionStatementToProject o- -> Supercomputer : provides >
+
+    !endsub
+
+@enduml
+
+@startuml
+
+
+        object "<u>Supercomputer : Infrastructure</u>" as Supercomputer #00ffff {
+                 description = "Supercomputer which can be used for high
+                 \t performance computing. Characteristics are the
+                 \t following: ... "@en ^^ Multilingual_String
+        }
+
+
+
+        object "<u>Josiah : Person</u>" as Josiah #ffffff {
+           personName = {
+           \t firstNames = "Josiah"@en ^^ Multilingual_String
+           \t familyNames = "Carberry"@en ^^ Multilingual_String
+           } ^^ PersonName
+           description = "Josiah Stinkney Carberry is a fictional professor,
+           \t created as a joke in 1929. He is said to still teach at Brown University,
+           \t and to be known for his work in "psychoceramics", the supposed study of
+           \t "cracked pots". See his Wikipedia entry for more details."@en ^^ Multilingual_String
+           keywords = ["psychoceramics"@en "ionian philology"@en] List<Multilingual_String>
+           orcid_id = "https://orcid.org/0000-0002-1825-0097" ^^ ORCID_iD
+           scopus_author_id = "7007156898" ^^ SCOPUS_Author_ID
+           websiteURL = "http://library.brown.edu/about/hay/carberry.php"
+           otherIDs = [
+           \t\t\t {
+           \t\t\t\t label = "Wikipedia Entry"@en ^^ Multilingual_String
+           \t\t\t\t value = "http://en.wikipedia.org/wiki/Josiah_Carberry" ^^ String
+           \t\t\t}
+           \t\t] ^^ List<ID>
+        }
+
+
+
+        object "<u>Brown University : Organisation_Unit</u>" as BrownUniversity #ffffff {
+            name = "Brown University"@en ^^ Multilingual_String
+            rorId = "https://ror.org/05gq02987" ^^ ROR_ID_Type
+            websiteURL = "https://www.brown.edu/" ^^ URI
+            address = {
+            \tcity = "Providence"@en ^^ Multilingual_String
+            \tstateOrProvince = "Rhode Island"@en ^^ Multilingual_String
+            \tcountry = "USA"@en ^^ Multilingual_String
+            } ^^ Postal_Address
+        }
+
+
+
+        object "<u>Josiah Brown University : Employment</u>" as JosiahBrownUniversity #ffffff {
+            dateRange = {
+            \t startDate = "1929-02-29" ^^ Date
+            \t startDateInclusive = "true" ^^ Boolean
+            } ^^ Date_Range
+            positionTitle = {
+            \t title = "Professor"@en ^^ Date
+            } ^^ Position_Title
+        }
+
+        JosiahBrownUniversity o- -> Josiah : actor >
+
+        JosiahBrownUniversity o- -> BrownUniversity : involved in >
+
+
+
+        object "<u>Restricted Access: Restricted_Access_COAR_Accessibility_Specification_v_1_0</u>" as RestrictedAccess #00ff00
+
+        object "<u>IEEE_TPS : Journal</u>" as IEEE_TPS #00ff00 {
+            title = "IEEE Transactions on Plasma Science"@en ^^ Multilingual_String
+            issn = "1939-9375" ^^ ISSN
+        }
+
+        object "<u>10.1109/TPS.1987.4316723 : Journal Article</u>" as Article101109 #00ff00 {
+            DOI = "10.1109/TPS.1987.4316723" ^^ DOI_Type
+            title = "Bulk and surface plasmons in
+            \t artificially structured materials"@en ^^ Multilingual_String
+            publicationDate = 1987 ^^ Date
+            startPage = "394"
+            endPage = "410"
+            volume = "15"
+            number = "4"
+        }
+
+        Article101109 o- -> IEEE_TPS : source >
+
+        Article101109 o- -> RestrictedAccess : accessRights >
+
+
+
+         object "<u>Josiah Article101109 : Authorship</u>" as JosiahArticle101109 #ffffff {
+             correspondingAuthor = "false" ^^ Boolean
+         }
+
+         object "<u>Affiliation Josiah : Affiliation_Statement</u>" as AffiliationJosiah #ffffff {
+             displayAffiliation = "Brown University of Providence, Providence, RI, USA" ^^ String
+             displayPersonName = "Josiah S. Carberry" ^^ String
+         }
+
+         JosiahArticle101109 o- -> AffiliationJosiah : affiliation >
+
+         JosiahBrownUniversity o- -> AffiliationJosiah : is the foundation for >
+
+         JosiahArticle101109 o- -> Josiah : actor >
+
+         JosiahArticle101109 o- -> Article101109 : document >
+
+         object "<u>John Article101109 : Authorship</u>" as JohnArticle101109 #ffffff {
+              correspondingAuthor = "true" ^^ Boolean
+         }
+
+         object "<u>Affiliation John Article101109 : Affiliation_Statement</u>" as AffiliationJohnArticle101109 #ffffff {
+              displayAffiliation = "Brown University of Providence, Providence, RI, USA" ^^ String
+              displayPersonName = "John J. Quinn" ^^ String
+         }
+
+         JohnArticle101109 o- -> AffiliationJohnArticle101109 : affiliation >
+
+         JohnArticle101109 o- -> Article101109 : document >
+
+
+
+
+        object "<u>INSP : Project</u>" as INSP #ffffff {
+             name = "Investigation of novel surface plasmons"@en ^^ Multilingual_String
+             acronym = "INSP" ^^ String
+             dateRange = {
+             \t startDate = "1985-02-29" ^^ Date
+             \t startDateInclusive = "true" ^^ Boolean
+             \t endDate = "1989-02-29" ^^ Date
+             \t endDateInclusive = "true" ^^ Boolean
+             } ^^ Date_Range
+        }
+
+
+
+        object "<u>Josiah Contribution Statement to Article : CRediT_Contribution_Statement</u>" as JosiahContributionStatementToArticle #00ff00 {
+             roleType = Writing - original draft ^^ CRediT_Role_Type
+             degreeOfContribution = Lead ^^ CRediT_Degree_of_Contribution
+        }
+
+        object "<u>Josiah Resource Usage Statement Article : Resource_Usage_Statement</u>" as JosiahResourceUsageStatementArticle #ffffff {
+            statement = "Part of his work Josian did by using a Supercomputer."@en ^^ Multilingual_String
+        }
+
+        JosiahContributionStatementToArticle o- -> JosiahResourceUsageStatementArticle : resource usage statement >
+
+        JosiahResourceUsageStatementArticle o- -> Supercomputer : resource >
+
+        JosiahArticle101109 o- -> JosiahContributionStatementToArticle : contribution statement >
+
+
+
+        object "<u>Brown University Contribution to Project : Contribution_to_Project</u>" as BrownUniversityContributionToProject #ffffff {
+             dateRange = {
+               \t startDate = "1985-02-29" ^^ Date
+               \t startDateInclusive = "true" ^^ Boolean
+               \t endDate = "1989-02-29" ^^ Date
+               \t endDateInclusive = "true" ^^ Boolean
+             } ^^ Date_Range
+        }
+
+        BrownUniversityContributionToProject o- -> BrownUniversity : of >
+
+        BrownUniversityContributionToProject o- -> INSP : to >
+
+
+
+        object "<u>BrownUniversityContributionStatementToProject : Contribution_Statement</u>" as BrownUniversityContributionStatementToProject #ffffff {
+             statement = "Brown University provided an its own Supercomputer for needs of the project"@en ^^ Multilingual_String
+        }
+
+        BrownUniversityContributionToProject o- -> BrownUniversityContributionStatementToProject : contribution statement >
+
+        BrownUniversityContributionStatementToProject o- -> Supercomputer : provides >
+
+
+@enduml
+
+PlantUML version 1.2021.8(Sat Jun 26 08:20:59 UTC 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>
