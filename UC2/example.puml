@@ -190,8 +190,6 @@
 
         INSP o--> NIH_1049 : funding source >
 
-        NIH_1049 o--> NIH : agency >
-
         object "<u>NIH 1049 WP1 : Funding</u>" as NIH_1049_WP1 #ffffff {
              budget = {
              \t amount = 200000 ^^ Decimal
@@ -258,8 +256,6 @@
              \t currencyCode = "USD" ^^ ISO_4217_Alpha_Code
              } ^^ Monetary_Ammount
         }
-
-        Brown_University_dissemination_Article101109 o--> BrownUniversity : agency >
 
     !endsub
 
