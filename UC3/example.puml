@@ -193,5 +193,26 @@
 
     !endsub
 
+    !startsub decision
+
+        object "<u>Supercomputer Request Decision:Decision</u>" as SupercomputerRequestDecision #ffffff {
+            date = "2017-06-31" ^^ Date
+        }
+
+        SupercomputerRequestDecision o--> BrownUniversity : make >
+
+        SupercomputerRequestDecision o--> SupercomputerRequest : on >
+
+        object "<u>Supercomputer Request Decision Document : Document</u>" as SupercomputerRequestDecisionDocument #ffffff {
+            title = "Decision for granting infrastructure
+            \t for usage by University of Novi Sad,
+            \t Serbia"@en ^^ Multilingual_String
+            publicationDate = "2017-06-31" ^^ Date
+        }
+
+        SupercomputerRequestDecision o--> SupercomputerRequestDecisionDocument : expressed in >
+
+    !endsub
+
 
 @enduml
