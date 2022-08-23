@@ -41,7 +41,7 @@
 
         ExperimentingInChemistryPossession o--> ExperimentingInChemistry : skill or expertise >
 
-        object "<u>Experimenting in Chemistry Providing : Expertise_and_Skills_Possession</u>" as ExperimentingInChemistryProviding #ffffff {
+        object "<u>Experimenting in Chemistry Providing : Expertise_and_Time_and_Effort</u>" as ExperimentingInChemistryProviding #ffffff {
             time = "65 hours" ^^ String
         }
 
